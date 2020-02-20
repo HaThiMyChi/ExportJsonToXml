@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JS to XML</title>
+  <script src="sateraito_form_lang.js"></script>
+
+</head>
+<body>
+  <form>
+    <input type="button" value="Export" onclick="exportXML()">
+  </form>
+  <script type="application/javascript">
+    function OBJtoXML(obj) {
+      var xml = '<?xml version="1.0" encoding="UTF-8" ?>\n';
+      xml += '<messagebundle>\n';
+      for (var prop in obj) {
+        xml += "\t<msg name=\"" + prop + "\" js=\"on\">";
+        xml += "<![CDATA[";
+        if(Array.isArray(obj[prop])) {
+          for (var array of obj[prop]) {
+
+            // A real botch fix here
+            xml += "]]>";
+            xml += "</msg>\n";
+            xml += "\t\t<msg name=\"" + prop + "\" js=\"on\">\n";
+
+            xml += "<![CDATA[";
+            xml += OBJtoXML(new Object(array));
+          }
+        } else if (typeof obj[prop] == "object") {
+          xml += OBJtoXML(new Object(obj[prop]));
+        } else {
+          xml += obj[prop];
+        }
+        xml += "]]>";
+        xml += "</msg>\n";
+      }
+      xml += "</messagebundle>";
+      var xml = xml.replace(/<\/?[0-9]{1,}>/g,'');
+      return xml
+    }
+    function exportXML(){
+      var InputJSON = MyLang.msgData_ALL_ALL;
+      var xml = `data:application/xml,${encodeURIComponent(OBJtoXML(InputJSON))}`;
+      var a = document.createElement("a");
+      var filename = "ALL_ALL.xml";
+      a.download = a.textContent =  filename;
+      a.href = xml;
+      document.body.appendChild(a);
+      console.log(OBJtoXML(InputJSON));
+    }
+  </script>
+</body>
+</html>

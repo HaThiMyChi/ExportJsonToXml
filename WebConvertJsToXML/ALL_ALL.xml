@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messagebundle>
+ <msg name="DOCUMENT_DETAIL" js="on" ><![CDATA[Document Details]]></msg>
+ <msg name="SIGN_IN_SUB_DOMAIN_EXP" js="on" ><![CDATA[Enter the Google Apps Domain name(what comes after the @ mark in your Google Apps mail address):]]></msg>
+ <msg name="AUTHENTICATION" js="on" ><![CDATA[Signing in...]]></msg>
+ <msg name="NOT_INSTALLED_EXP" js="on" ><![CDATA[Sateraito Office - Cloud CRM is not installed to Google Apps domain "{{ google_apps_domain }}". Please contact the administrator for more information.]]></msg>
+ <msg name="APPLICATION_ID" js="on" ><![CDATA[Application ID:]]></msg>
+ <msg name="POST_TO_CALENDAR" js="on" ><![CDATA[Add to event description]]></msg>
+ <msg name="UPDATE_CALENDAR" js="on" ><![CDATA[Auto update to event description]]></msg>
+ <msg name="STATUS_PUBLIC" js="on" ><![CDATA[Public]]></msg>
+ <msg name="STATUS_PRIVATE" js="on" ><![CDATA[Private]]></msg>
+ <msg name="STATUS_CALENDAR_DAFULT" js="on" ><![CDATA[No]]></msg>
+ <msg name="STATUS_CALENDAR_TENTATIVE" js="on" ><![CDATA[Undetermined]]></msg>
+ <msg name="STATUS_CALENDAR_CONFIRMED" js="on" ><![CDATA[No]]></msg>
+ <msg name="SEND_MAIL_DISCRIPTION" js="on" ><![CDATA[Set an address to notify upon the creation/modification/deletion of data. Enter mail address or group address.]]></msg>
+ <msg name="SECTION_SEND_MAIL" js="on" ><![CDATA[Notification]]></msg>
+ <msg name="SECTION_ADD_USER_INFO" js="on" ><![CDATA[Sales representative]]></msg>
+ <msg name="SECTION_ADD_CONTACT" js="on" ><![CDATA[Client]]></msg>
+ <msg name="SECTION_ADD_PRODUCT" js="on" ><![CDATA[Case/Opportunity]]></msg>
+ <msg name="SECTION_ACTION" js="on" ><![CDATA[Action]]></msg>
+ <msg name="SECTION_BACKUP_HISTORY" js="on" ><![CDATA[Edit log]]></msg>
+ <msg name="SECTION_TREE_COMMENT" js="on" ><![CDATA[Comment]]></msg>
+ <msg name="SECTION_RELATED_ACTION" js="on" ><![CDATA[Related Actions]]></msg>
+ <msg name="SECTION_RELATED_EMAIL" js="on" ><![CDATA[Related mail]]></msg>
+ <msg name="SECTION_RELATED_DRIVE" js="on" ><![CDATA[Related Document]]></msg>
+ <msg name="SECTION_RELATED_CALENDAR" js="on" ><![CDATA[Related Event]]></msg>
+ <msg name="MSG_MAX_SEARCH_RESULT" js="on" ><![CDATA[More than 0 search results were found. Showing only the first 100.]]></msg>
+ <msg name="VALID_NOT_NUMBER" js="on" ><![CDATA[invalid numeric value]]></msg>
+ <msg name="MSG_DELETE_DRAFT" js="on" ><![CDATA[Deleting draft. Deleted drafts can not be recovered. Are you sure?]]></msg>
+ <msg name="MSG_DELETE_DRAFT_SUCCESS" js="on" ><![CDATA[Draft deleted]]></msg>
+ <msg name="MSG_DELETE_DRAFT_ERROR" js="on" ><![CDATA[An error occurred while deleting draft]]></msg>
+ <msg name="HEADER_COMPANY_CREATE" js="on" ><![CDATA[Create Company]]></msg>
+ <msg name="HEADER_CONTACT_CREATE" js="on" ><![CDATA[Create Client]]></msg>
+ <msg name="HEADER_PRODUCT_CREATE" js="on" ><![CDATA[Create Case/Opportunity]]></msg>
+ <msg name="CREATE" js="on" ><![CDATA[Create]]></msg>
+ <msg name="HEADER_COMPANY_DETAIL" js="on" ><![CDATA[Company Detail]]></msg>
+ <msg name="HEADER_CONTACT_DETAIL" js="on" ><![CDATA[Client Detail]]></msg>
+ <msg name="HEADER_PRODUCT_DETAIL" js="on" ><![CDATA[Case/Opportunity Detail]]></msg>
+ <msg name="FOLLOWING" js="on" ><![CDATA[Following]]></msg>
+ <msg name="READ_HISTORY" js="on" ><![CDATA[Read Log]]></msg>
+ <msg name="BACKUP_HISTORY" js="on" ><![CDATA[Edit Log]]></msg>
+ <msg name="LOADING_EXPORT" js="on" ><![CDATA[Exporting...]]></msg>
+ <msg name="ERROR_GET_CALENDAR" js="on" ><![CDATA[Error]]></msg>
+ <msg name="ERROR_WHILE_UPDATING" js="on" ><![CDATA[An error occurred while updating.]]></msg>
+ <msg name="ERROR_POST_TO_CALENDAR" js="on" ><![CDATA[Failed to add to Google Calendar.]]></msg>
+ <msg name="ERROR_EXPORT" js="on" ><![CDATA[An error occurred while exporting.]]></msg>
+ <msg name="ERROR_SUBMIT_DUPLICATE" js="on" ><![CDATA[Multiple Submission: This data has already been submitted.]]></msg>
+ <msg name="ERROR_SUBMIT_DUPLICATE_ACTION" js="on" ><![CDATA[Multiple Submission: This action has already been submitted.]]></msg>
+ <msg name="ERROR_FILE_NOT_FOUND" js="on" ><![CDATA[There is an non-existing link in the file attachment link embedded in the data]]></msg>
+ <msg name="ERROR_GET_ABOUT_DOC" js="on" ><![CDATA[An error occurred while loading.]]></msg>
+ <msg name="ERROR_GET_DETAIL" js="on" ><![CDATA[An error occurred while data retrieval.]]></msg>
+ <msg name="ERROR_GET_NOT_FOUND" js="on" ><![CDATA[This data has been either deleted or you have no permission to access.]]></msg>
+ <msg name="ERROR_GET_NOT_FOUND_TEMPLATE" js="on" ><![CDATA[This entry form either has been deleted or does not exist so you can not create new data.]]></msg>
+ <msg name="ERROR_GET_NOT_FOUND_TYPE_COMPONENT" js="on" ><![CDATA[Entry form does not exist.]]></msg>
+ <msg name="ERROR_CREATE_TEXTSEARCH" js="on" ><![CDATA[An error occurred while searching because filtering item setting is incomplete.]]></msg>
+ <msg name="TITLE_HISTORY" js="on" ><![CDATA[Title]]></msg>
+ <msg name="OPEN_CALENDAR" js="on" ><![CDATA[Open calendar]]></msg>
+ <msg name="START_DATETIME_CALENDAR" js="on" ><![CDATA[Start Date]]></msg>
+ <msg name="END_DATETIME_CALENDAR" js="on" ><![CDATA[End Date]]></msg>
+ <msg name="STATUS_CALENDAR" js="on" ><![CDATA[Attend]]></msg>
+ <msg name="SUMMARY_CALENDAR" js="on" ><![CDATA[Title]]></msg>
+ <msg name="OPEN_DRIVE" js="on" ><![CDATA[Open Drive]]></msg>
+ <msg name="OWNER_DRIVE" js="on" ><![CDATA[Owner]]></msg>
+ <msg name="TITLE_DRIVE" js="on" ><![CDATA[Title]]></msg>
+ <msg name="ROLE_DRIVE" js="on" ><![CDATA[Rights]]></msg>
+ <msg name="INBOX_MAIL" js="on" ><![CDATA[Open Inbox]]></msg>
+ <msg name="SUMMARY_MAIL" js="on" ><![CDATA[Content]]></msg>
+ <msg name="ISSUED_MAIL" js="on" ><![CDATA[Date]]></msg>
+ <msg name="SENDER_MAIL" js="on" ><![CDATA[Sender]]></msg>
+ <msg name="TITLE_MAIL" js="on" ><![CDATA[Subject]]></msg>
+ <msg name="BTN_ADD_USER" js="on" ><![CDATA[Set PIC]]></msg>
+ <msg name="MSG_DELETE_USER" js="on" ><![CDATA[Do you wish to delete user?]]></msg>
+ <msg name="NAME_USER" js="on" ><![CDATA[Name]]></msg>
+ <msg name="VISIBILITY_PRIVATE" js="on" ><![CDATA[Private]]></msg>
+ <msg name="VISIBILITY_PUBLIC" js="on" ><![CDATA[Public]]></msg>
+ <msg name="VISIBILITY_DEFAULT" js="on" ><![CDATA[Default]]></msg>
+ <msg name="VALID_TITLE_CALENDAR" js="on" ><![CDATA[Untitled Event]]></msg>
+ <msg name="VALID_DATE_CALENDAR" js="on" ><![CDATA[Invalid date value.]]></msg>
+ <msg name="VALID_TIME_CALENDAR" js="on" ><![CDATA[Invalid time value. Enter in the following format: HH:MM.]]></msg>
+ <msg name="VALID_SELECT_CALENDAR" js="on" ><![CDATA[Select calendar.]]></msg>
+ <msg name="PRIVACY" js="on" ><![CDATA[Privacy]]></msg>
+ <msg name="CALENDAR" js="on" ><![CDATA[Calendar]]></msg>
+ <msg name="ATTENDEES" js="on" ><![CDATA[Attendee]]></msg>
+ <msg name="LOCATION" js="on" ><![CDATA[Place]]></msg>
+ <msg name="ALL_DATE" js="on" ><![CDATA[All Day]]></msg>
+ <msg name="TIME" js="on" ><![CDATA[Duration]]></msg>
+ <msg name="SIGN_TO_GOOGLE_CALENDAR" js="on" ><![CDATA[Add to Google Calendar]]></msg>
+ <msg name="SIGN_TO_GOOGLE_CALENDAR_FLAG_0" js="on" ><![CDATA[Don't add]]></msg>
+ <msg name="SIGN_TO_GOOGLE_CALENDAR_FLAG_1" js="on" ><![CDATA[Auto Add]]></msg>
+ <msg name="SIGN_TO_GOOGLE_CALENDAR_FLAG_2" js="on" ><![CDATA[Add manually]]></msg>
+ <msg name="SIGN_TO_GOOGLE_CALENDAR_EXP" js="on" ><![CDATA[Select "Add manually" to edit Event detail on Google Calendar.]]></msg>
+ <msg name="SECTION_TITLE_CALENDAR" js="on" ><![CDATA[Google Calendar Info]]></msg>
+ <msg name="BTN_DEFAULT_SEARCH" js="on" ><![CDATA[Default Display]]></msg>
+ <msg name="SELECT_MASTER_ERROR" js="on" ><![CDATA[The selected data does not exist.]]></msg>
+ <msg name="NEW" js="on" ><![CDATA[New]]></msg>
+ <msg name="ACTION" js="on" ><![CDATA[Action]]></msg>
+ <msg name="TITLE_TAB_NEW_ACTION" js="on" ><![CDATA[Create new Action]]></msg>
+ <msg name="TITLE_TAB_NEW_PRODUCT" js="on" ><![CDATA[Create new Case/Opportunity]]></msg>
+ <msg name="TITLE_TAB_NEW_ACCOUNT" js="on" ><![CDATA[Create new Company]]></msg>
+ <msg name="TITLE_TAB_NEW_CONTACT" js="on" ><![CDATA[Create new Client]]></msg>
+ <msg name="VIEW" js="on" ><![CDATA[View]]></msg>
+ <msg name="FULL_TEXT" js="on" ><![CDATA[Full Text]]></msg>
+ <msg name="ALL_VIEW" js="on" ><![CDATA[All View]]></msg>
+ <msg name="NO_TITLE" js="on" ><![CDATA[(No Title)]]></msg>
+ <msg name="CHECK_ATTACH" js="on" ><![CDATA[Attachment]]></msg>
+ <msg name="ATTACH" js="on" ><![CDATA[Attach]]></msg>
+ <msg name="HTML_TYPE" js="on" ><![CDATA[Notify by HTML type]]></msg>
+ <msg name="HTML_TYPE_EXP" js="on" ><![CDATA[Turn ON to notify by HTML type.]]></msg>
+ <msg name="USE" js="on" ><![CDATA[Use]]></msg>
+ <msg name="INVALID_DATE" js="on" ><![CDATA[is an invalid date value]]></msg>
+ <msg name="VALUE_NOT_NULL" js="on" ><![CDATA[You must fill in this field]]></msg>
+ <msg name="GROUP_FIELD" js="on" ><![CDATA[Group item:]]></msg>
+ <msg name="SORTED_BY" js="on" ><![CDATA[Sorted by:]]></msg>
+ <msg name="TEMPLATE_LIMIT_POSTED_EXP" js="on" ><![CDATA[Please enter the user or group mail address to allow them to create new data. Separate by spaces for multiple entry. All users will be able to create new when left blank.]]></msg>
+ <msg name="TEMPLATE_LIMIT_UPDATE_EXP" js="on" ><![CDATA[Please enter the user or group mail address to allow them to edit data. Separate by spaces for multiple entry. All users will be able to edit data when left blank.]]></msg>
+ <msg name="TEMPLATE_LIMIT_DELETE_EXP" js="on" ><![CDATA[Please enter the user or group mail address to allow them to delete data. Separate by spaces for multiple entry. All users will be able to delete data when left blank.]]></msg>
+ <msg name="NOTIFICATION_DEL" js="on" ><![CDATA[Entry form deleted]]></msg>
+ <msg name="CONFIRM_DELETE" js="on" ><![CDATA[Deleting entry form. Are you sure?]]></msg>
+ <msg name="ERROR_DUPLICATION" js="on" ><![CDATA[The title already exists. Enter a different title.]]></msg>
+ <msg name="ERROR_NOT_FOUND" js="on" ><![CDATA[Entry form not found.]]></msg>
+ <msg name="ERROR_SAVE_DOC" js="on" ><![CDATA[An error occurred while deleting.]]></msg>
+ <msg name="ERROR_DEL_DOC" js="on" ><![CDATA[An error occurred while deleting.]]></msg>
+ <msg name="DETAIL" js="on" ><![CDATA[Details]]></msg>
+ <msg name="NOTIFICATION_SAVE" js="on" ><![CDATA[Saved entry form]]></msg>
+ <msg name="DISABLED" js="on" ><![CDATA[Hide]]></msg>
+ <msg name="ENABLED" js="on" ><![CDATA[Show]]></msg>
+ <msg name="TITLE_GRID_VIEW_DEFAULT" js="on" ><![CDATA[Standard View List]]></msg>
+ <msg name="ERROR_SAVE_SETTING" js="on" ><![CDATA[An error occurred while saving setting]]></msg>
+ <msg name="SETTING_USE_TAB" js="on" ><![CDATA[Function Setting]]></msg>
+ <msg name="SETTING_USE_TAB_COMPANY" js="on" ><![CDATA[Company Master]]></msg>
+ <msg name="SETTING_USE_TAB_COMPANY_DES" js="on" ><![CDATA[Turn ON to enable the use of Company master.]]></msg>
+ <msg name="SETTING_USE_TAB_CONTACT" js="on" ><![CDATA[Client Master]]></msg>
+ <msg name="SETTING_USE_TAB_CONTACT_DES" js="on" ><![CDATA[Turn ON to enable the use of Client master.]]></msg>
+ <msg name="SETTING_USE_TAB_PRODUCT" js="on" ><![CDATA[Case/Opportunity Master]]></msg>
+ <msg name="SETTING_USE_TAB_PRODUCT_DES" js="on" ><![CDATA[Turn ON to enable the use of Case/Opportunity master.]]></msg>
+ <msg name="SETTING_USE_TAB_ACTION" js="on" ><![CDATA[Action Master]]></msg>
+ <msg name="SETTING_USE_TAB_ACTION_DES" js="on" ><![CDATA[Turn ON to enable the use of Action master.]]></msg>
+ <msg name="SETTING_USE_TAB_USE" js="on" ><![CDATA[Use]]></msg>
+ <msg name="USING_ADDRESS_POPUP" js="on" ><![CDATA[Group Address Book Sync]]></msg>
+ <msg name="EXP_ADDRESS_POPUP" js="on" ><![CDATA[Use Group Address Book Pop-up]]></msg>
+ <msg name="DES_ADDRESS_POPUP_1" js="on" ><![CDATA[Select a "Circulation View User/Group" when creating new post to enable the use of group address book pop-up.]]></msg>
+ <msg name="DES_ADDRESS_POPUP_2_PAID" js="on" ><![CDATA[To turn ON this function, "Sateraito Office - Group Address Book (Paid ver.)" must be installed.]]></msg>
+ <msg name="DES_ADDRESS_POPUP_2_FREE" js="on" ><![CDATA[To turn ON this function, "Sateraito Office - Group Address Book (Free ver.)" must be installed.]]></msg>
+ <msg name="TITLE_GRID_ADMIN" js="on" ><![CDATA[Data list]]></msg>
+ <msg name="EXP_CHECK_APPID_1" js="on" ><![CDATA[You can only use alphabets, numbers, under bar "_", and hyphen "-" to enter as application ID.]]></msg>
+ <msg name="EXP_CHECK_APPID_2" js="on" ><![CDATA[The first character must be an alphabet.]]></msg>
+ <msg name="EXP_CHECK_APPID_3" js="on" ><![CDATA[Please contact the system administrator for more details.]]></msg>
+ <msg name="ALL_COMPONENT" js="on" ><![CDATA[ALL]]></msg>
+ <msg name="ALL_TEMPLATE" js="on" ><![CDATA[ALL]]></msg>
+ <msg name="SETTING_CHECK_SEND_MAIL" js="on" ><![CDATA[Turn ON/OFF Notification]]></msg>
+ <msg name="CHECK_SEND_MAIL" js="on" ><![CDATA[Turn ON Notification]]></msg>
+ <msg name="EXP_CHECK_SEND_MAIL" js="on" ><![CDATA[Turn ON to send notification at the time of data creation/update/deletion.]]></msg>
+ <msg name="HEADER_FIELD_NAMECARD" js="on" ><![CDATA[Data distinction]]></msg>
+ <msg name="VIEW_FILTER_IS_NAMECARD" js="on" ><![CDATA[Business Card Data]]></msg>
+ <msg name="VIEW_FILTER_IS_NOT_NAMECARD" js="on" ><![CDATA[Client Data]]></msg>
+ <msg name="DATA_NOT_FOUND" js="on" ><![CDATA[*Document not found.]]></msg>
+ <msg name="MODE_LIST_GRID" js="on" ><![CDATA[List view]]></msg>
+ <msg name="MODE_FRAME_GRID" js="on" ><![CDATA[Business card view]]></msg>
+ <msg name="EXP_MODE_DISPLAY" js="on" ><![CDATA[Set View format selection.]]></msg>
+ <msg name="MODE_DISPLAY_GRIDVIEW" js="on" ><![CDATA[Display format]]></msg>
+ <msg name="CSV_IMPORT_NAMECARD" js="on" ><![CDATA[Import Business Card Data]]></msg>
+ <msg name="IMPORT_FINISHED_DATE" js="on" ><![CDATA[End date]]></msg>
+ <msg name="DEFAULT_MACHINE_VALUE" js="on" ><![CDATA[Select card scanner]]></msg>
+ <msg name="VALID_SELECT_MACHINE" js="on" ><![CDATA[Please select card scanner.]]></msg>
+ <msg name="WINDOW_TITLE_DETAIL" js="on" ><![CDATA[Post detail]]></msg>
+ <msg name="TABLE_STATISTIC" js="on" ><![CDATA[Usage]]></msg>
+ <msg name="EXP_TABLE_STATISTIC" js="on" ><![CDATA[*The number of data per application would be counted.]]></msg>
+ <msg name="STATISTIC_APP_ID" js="on" ><![CDATA[Application ID]]></msg>
+ <msg name="STATISTIC_ACCOUNT" js="on" ><![CDATA[Company M]]></msg>
+ <msg name="STATISTIC_CONTACT" js="on" ><![CDATA[Client M]]></msg>
+ <msg name="STATISTIC_PRODUCT" js="on" ><![CDATA[Case/Opportunity M]]></msg>
+ <msg name="STATISTIC_ACTION" js="on" ><![CDATA[Action M]]></msg>
+ <msg name="STATISTIC_SUM" js="on" ><![CDATA[Subtotal]]></msg>
+ <msg name="STATISTIC_TOTAL" js="on" ><![CDATA[Total:]]></msg>
+ <msg name="STATISTIC_CONTINUES" js="on" ><![CDATA[Remaining:]]></msg>
+ <msg name="NUM_PUBLISHED_DOC_ADMIN_SETTING" js="on" ><![CDATA[Check usage]]></msg>
+ <msg name="NUM_PUBLISHED_DOC_ADMIN_LABEL" js="on" ><![CDATA[Check the used record]]></msg>
+ <msg name="NUM_PUBLISHED_DOC_ADMIN_BTN" js="on" ><![CDATA[Show]]></msg>
+ <msg name="NUM_PUBLISHED_DOC_ADMIN_DESCRIPT" js="on" ><![CDATA[Click "Show" to see the number of used records in domain.]]></msg>
+ <msg name="OVER_QUOTA_PLEASE_CHECK" js="on" ><![CDATA[The number of data on your domain exceeds limit. Please contact the system administrator.<br>To expand data limit, please contact Sateraito Office support team.]]></msg>
+ <msg name="PREVIEW_ON_GOOGLE_DRIVE" js="on" ><![CDATA[Google Drive Preview]]></msg>
+ <msg name="GO_TO_SEARCH_ACCOUNT" js="on" ><![CDATA[Refer to related companies]]></msg>
+ <msg name="GO_TO_SEARCH_CONTACT" js="on" ><![CDATA[Refer to related clients]]></msg>
+ <msg name="GO_TO_SEARCH_PRODUCT" js="on" ><![CDATA[Refer to related cases/opportunities]]></msg>
+ <msg name="GO_TO_SEARCH_EVENT" js="on" ><![CDATA[Refer to related actions]]></msg>
+ <msg name="CHANGE_USER_ADDRESS_FIRST_AND_LASTNAME_SETTING" js="on" ><![CDATA[User Address/Name edit function]]></msg>
+ <msg name="CHANGE_USER_ADDRESS_FIRST_AND_LASTNAME" js="on" ><![CDATA[Show User Address/Name edit function]]></msg>
+ <msg name="CHANGE_USER_ADDRESS_FIRST_AND_LASTNAME_DESCRIPT" js="on" ><![CDATA[CLick this link to show User Address/Name edit function.]]></msg>
+ <msg name="CONFIRM_START_CHANGE_USERINFO" js="on" ><![CDATA[Starting User Info edit. Are you sure?]]></msg>
+ <msg name="CHANGE_USERINFO" js="on" ><![CDATA[Edit User Address/Name]]></msg>
+ <msg name="EXP_CHANGE_USERINFO1" js="on" ><![CDATA[Editing User ID. Please edit User ID on Google Apps first.<br>* Please activate for each application. This may take about an hour to reflect.]]></msg>
+ <msg name="EXP_CHANGE_USERINFO2" js="on" ><![CDATA[*If you are changing both first and family name at once, please enter both.]]></msg>
+ <msg name="START_CHANGE_USERINFO" js="on" ><![CDATA[Starting User Info Edit...]]></msg>
+ <msg name="ERR_START_CHANGE_USERINFO" js="on" ><![CDATA[Failed to start User Info Edit.]]></msg>
+ <msg name="FIN_START_CHANGE_USERINFO" js="on" ><![CDATA[Started User Info Edit. This may take some time.]]></msg>
+ <msg name="BTN_START_CHANGEUSERINFO" js="on" ><![CDATA[Start Edit]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_OLD_EMAIL" js="on" ><![CDATA[Current Mail Address]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_NEW_EMAIL" js="on" ><![CDATA[New Mail Address]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_NEW_FAMILY_NAME" js="on" ><![CDATA[New Family Name]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_NEW_GIVEN_NAME" js="on" ><![CDATA[New First Name]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_STATUS" js="on" ><![CDATA[Status]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_CREATED_DATE" js="on" ><![CDATA[Process Start Date]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_CHANGE_DOC_NUM" js="on" ><![CDATA[Changed Document]]></msg>
+ <msg name="FLD_CHANGE_USERINFO_ERROR_DOC_NUM" js="on" ><![CDATA[Failed Document]]></msg>
+ <msg name="VC_OLD_EMAIL_EMPTY" js="on" ><![CDATA[*"Current Mail Address" is required field.]]></msg>
+ <msg name="VC_NEW_EMAIL_EMPTY" js="on" ><![CDATA[*New Mail Address" is required field.]]></msg>
+ <msg name="VC_OLD_EMAIL_NOT_COMPATIBLE_DOMAIN" js="on" ><![CDATA[*Invalid format or domain: "Current Mail Address"."]]></msg>
+ <msg name="VC_NEW_EMAIL_NOT_COMPATIBLE_DOMAIN" js="on" ><![CDATA[*Invalid format or domain: "New Mail Address"]]></msg>
+ <msg name="CHANGE_USERINFO_HISTORY" js="on" ><![CDATA[User Info Edit Log]]></msg>
+ <msg name="CHANGE_USERINFO_STATUS_DEAL" js="on" ><![CDATA[Processing]]></msg>
+ <msg name="CHANGE_USERINFO_STATUS_FIN" js="on" ><![CDATA[Success]]></msg>
+ <msg name="CHANGE_USERINFO_STATUS_ERROR" js="on" ><![CDATA[Error]]></msg>
+ <msg name="CHANGE_USERINFO_STATUS_WAIT" js="on" ><![CDATA[Pending]]></msg>
+ <msg name="TEMPLATE_LIMIT_EXPORT" js="on" ><![CDATA[Export Rights]]></msg>
+ <msg name="TEMPLATE_LIMIT_IMPORT" js="on" ><![CDATA[Import Rights]]></msg>
+ <msg name="TEMPLATE_LIMIT_EXPORT_EXP" js="on" ><![CDATA[Enter user or group mail address to admit data export to. Separate by spaces for multiple entry. Leave blank to allow all users to export.]]></msg>
+ <msg name="TEMPLATE_LIMIT_IMPORT_EXP" js="on" ><![CDATA[Enter user or group mail address to admit data import to. Separate by spaces for multiple entry. Leave blank to allow all users to import.]]></msg>
+ <msg name="NEW_MARK" js="on" ><![CDATA[Days to mark "new" ]]></msg>
+ <msg name="NEW_MARK_DESCRIPT" js="on" ><![CDATA[The "new" mark will be displayed for posts submitted within 24 hours by default,<br>but by enabling this setting, the mark will be shown for the specified days.]]></msg>
+ <msg name="UPLOAD_DOC" js="on" ><![CDATA[Import]]></msg>
+ <msg name="SET_UNREAD_DOC" js="on" ><![CDATA[Unread]]></msg>
+ <msg name="SET_READ_DOC" js="on" ><![CDATA[Read]]></msg>
+ <msg name="DOC_IS_UNREAD" js="on" ><![CDATA[Unread document]]></msg>
+ <msg name="DOC_SET_UNREAD_ERR_MSG_1" js="on" ><![CDATA[An error occurred when un-reading document]]></msg>
+ <msg name="EXP_CHANGE_LOOKS_OF_READ" js="on" ><![CDATA[Read documents are displayed in fine characters on the document list. If you wish to change display style, check and configure below. Use HTML color code to set display color(Ex. red, green, #8E2424).]]></msg>
+ <msg name="COLOR_CODE_OF_READ" js="on" ><![CDATA[Display color code]]></msg>
+ <msg name="TITLE_CHANGE_LOOKS_OF_READ" js="on" ><![CDATA[Change display style on Read List]]></msg>
+ <msg name="CHANGE_LOOKS_OF_READ" js="on" ><![CDATA[Change Read document Display]]></msg>
+ <msg name="LIMIT_DOWNLOAD" js="on" ><![CDATA[Export up to 1000.]]></msg>
+ <msg name="DOWNLOAD_DOC" js="on" ><![CDATA[Export]]></msg>
+ <msg name="FIELD_NAME" js="on" ><![CDATA[Field Name]]></msg>
+ <msg name="SETTING_FIELDS_EXPORT_EXP" js="on" ><![CDATA[The checked fields will be output to export CSV file.]]></msg>
+ <msg name="SETTING_FIELDS_EXPORT" js="on" ><![CDATA[Export field setting]]></msg>
+ <msg name="TITLE_DRAFT" js="on" ><![CDATA[Draft]]></msg>
+ <msg name="CONTACT_TYPE_DRAFT" js="on" ><![CDATA[Client M]]></msg>
+ <msg name="PRODUCT_TYPE_DRAFT" js="on" ><![CDATA[Case/Opportunity M]]></msg>
+ <msg name="COMPANY_TYPE_DRAFT" js="on" ><![CDATA[Company M]]></msg>
+ <msg name="EVENT_TYPE_DRAFT" js="on" ><![CDATA[Action M]]></msg>
+ <msg name="COMPONENT_TYPE" js="on" ><![CDATA[Master Division]]></msg>
+ <msg name="PANEL_DRAFT" js="on" ><![CDATA[Draft]]></msg>
+ <msg name="TEMPLATE_PRINT" js="on" ><![CDATA[Print form]]></msg>
+ <msg name="TEMPLATE_PRINT_EXP" js="on" ><![CDATA[*You can register print layout. Set by entire HTML.]]></msg>
+ <msg name="ADDING" js="on" ><![CDATA[Add]]></msg>
+ <msg name="ADDING_EXP" js="on" ><![CDATA[*Please enter print layout name.]]></msg>
+ <msg name="PRINT_FORM" js="on" ><![CDATA[Print form content]]></msg>
+ <msg name="TEMPLATE_SETTING_MSG" js="on" ><![CDATA[Enter setting name.]]></msg>
+ <msg name="CHECK_BODY_HTML" js="on" ><![CDATA[Notification mail Setting]]></msg>
+ <msg name="SEND_MAIL_REGISTER" js="on" ><![CDATA[Send notification]]></msg>
+ <msg name="NOT_SEND_MAIL" js="on" ><![CDATA[Do not send]]></msg>
+ <msg name="MAIL_TO" js="on" ><![CDATA[To]]></msg>
+ <msg name="MAIL_CC" js="on" ><![CDATA[CC]]></msg>
+ <msg name="MAIL_BCC" js="on" ><![CDATA[BCC]]></msg>
+ <msg name="REPLY_TO" js="on" ><![CDATA[Reply To]]></msg>
+ <msg name="MAIL_TITLE" js="on" ><![CDATA[Subject]]></msg>
+ <msg name="MAIL_CONTEND" js="on" ><![CDATA[Body]]></msg>
+ <msg name="ATTACHMENT_FILE" js="on" ><![CDATA[File attachment setting]]></msg>
+ <msg name="ATTACHMENT_FILE_EXP" js="on" ><![CDATA[Turn on to attach file to notification.]]></msg>
+ <msg name="SETTING_SEND_MAIL" js="on" ><![CDATA[Notification Customize Setting]]></msg>
+ <msg name="SETTING_SEND_MAIL_EXP" js="on" ><![CDATA[Configure below to customize the Creation/Edit/Deletion notification message.]]></msg>
+ <msg name="SETTING_SEND_MAIL_EXP_2" js="on" ><![CDATA[*Enter tag "[$$ (name value) $$]" in subject and body field to embed actual value.]]></msg>
+ <msg name="CHECK_EMAIL" js="on" ><![CDATA[Incorrect mail address.]]></msg>
+ <msg name="CHECK_TEL_FAX_NUMBER" js="on" ><![CDATA[Incorrect telephone (FAX) number.]]></msg>
+ <msg name="CHECK_HANKAKU_EISUUJI" js="on" ><![CDATA[You can only enter alphanumeric value.]]></msg>
+ <msg name="CHECK_CHIKU_SISETU_CODE" js="on" ><![CDATA[Enter area facility code in alphanumeric value : "XXXX-XXX"]]></msg>
+ <msg name="CHECK_HANKAKU_KANA" js="on" ><![CDATA[Only single-byte Katakana is available.]]></msg>
+ <msg name="CHECK_ZENKAKU_KANA" js="on" ><![CDATA[Only double-byte Katakana is available.]]></msg>
+ <msg name="CHECK_INPUT_MANDATORY" js="on" ><![CDATA[Please fill in the required fields.]]></msg>
+ <msg name="CHECK_CHECKBOX_MANDATORY" js="on" ><![CDATA[Please check at least one.]]></msg>
+ <msg name="CHECK_RADIO_MANDATORY" js="on" ><![CDATA[Please select one.]]></msg>
+ <msg name="SEND_MAIL" js="on" ><![CDATA[Notify by mail]]></msg>
+ <msg name="FAILED_ATTACH_FILE_BECAUSE_TOO_LARGE_SIZE" js="on" ><![CDATA[Failed to attach file: file size too big.]]></msg>
+ <msg name="FAILED_ATTACH_FILE" js="on" ><![CDATA[An error occurred while uploading file. Please try again later.]]></msg>
+ <msg name="FIN_DELETE_ATTACH_FILE" js="on" ><![CDATA[Deleted attached file]]></msg>
+ <msg name="FAILED_DELETE_ATTACH_FILE" js="on" ><![CDATA[An error occurred while deleting file attachment. Please try again later.]]></msg>
+ <msg name="DELETE_FILE" js="on" ><![CDATA[Delete]]></msg>
+ <msg name="FILE_UPLOAD" js="on" ><![CDATA[Upload]]></msg>
+ <msg name="ATTACH_FILE" js="on" ><![CDATA[Attach file]]></msg>
+ <msg name="EXP_ATTACH_FILE" js="on" ><![CDATA[*Attach up to 200 MB]]></msg>
+ <msg name="FIN_ATTACH_FILE" js="on" ><![CDATA[File attached]]></msg>
+ <msg name="REQUIRE_SELECT_FILE" js="on" ><![CDATA[Please select file]]></msg>
+ <msg name="CANNOT_ATTACH_EMPTY_FILE" js="on" ><![CDATA[You can not attach empty file.]]></msg>
+ <msg name="ATTACHED_FILES" js="on" ><![CDATA[Attach file]]></msg>
+ <msg name="ATTACH_FILE_LINK" js="on" ><![CDATA[Attach file]]></msg>
+ <msg name="COMMENT" js="on" ><![CDATA[Comment]]></msg>
+ <msg name="EXP_COMMENT" js="on" ><![CDATA[Comment must be less than 100 characters]]></msg>
+ <msg name="COMMENT_ADDED" js="on" ><![CDATA[Comment added]]></msg>
+ <msg name="ADDING_COMMENT_OK" js="on" ><![CDATA[Adding comment. Are you sure?]]></msg>
+ <msg name="DOWNLOAD" js="on" ><![CDATA[Download]]></msg>
+ <msg name="REPLY" js="on" ><![CDATA[Reply]]></msg>
+ <msg name="ATTACH_FILE_TO_COMMENT" js="on" ><![CDATA[Add file to comment]]></msg>
+ <msg name="ADVANCED_SEARCH" js="on" ><![CDATA[Advanced Search]]></msg>
+ <msg name="NO_CONDITION_ATTACH_FILE" js="on" ><![CDATA[Do not specify]]></msg>
+ <msg name="NOT_HAVE_ATTACH_FILE" js="on" ><![CDATA[None]]></msg>
+ <msg name="HAVE_ATTACH_FILE" js="on" ><![CDATA[Attached]]></msg>
+ <msg name="ATTACH_FILE_YES_OR_NO" js="on" ><![CDATA[File attached/not]]></msg>
+ <msg name="PUBLISHED_DATE" js="on" ><![CDATA[Publication date]]></msg>
+ <msg name="SEARCH_KEYWORD" js="on" ><![CDATA[Search Keyword]]></msg>
+ <msg name="BTN_CREATE_MASTER_DEF" js="on" ><![CDATA[Create new master]]></msg>
+ <msg name="BTN_EDIT_MASTER_DEF" js="on" ><![CDATA[Edit Master]]></msg>
+ <msg name="MSG_CLOSE" js="on" ><![CDATA[Close]]></msg>
+ <msg name="MASTER_DATA" js="on" ><![CDATA[Reference Master Data]]></msg>
+ <msg name="NEWADD" js="on" ><![CDATA[Add new]]></msg>
+ <msg name="MASTER_CODE_ALREADY_EXISTS" js="on" ><![CDATA[Master with the same Master Code already exists]]></msg>
+ <msg name="ERR_MASTER_CODE_LETTERS" js="on" ><![CDATA[You can only use alphanumeric value , under bars "_", hyphens "-", and periods ".".]]></msg>
+ <msg name="ERR_PROCESSING" js="on" ><![CDATA[An error occurred]]></msg>
+ <msg name="CREATE_MASTER_DEF" js="on" ><![CDATA[Create new Master]]></msg>
+ <msg name="EDIT_MASTER_DEF" js="on" ><![CDATA[Edit Master]]></msg>
+ <msg name="MASTER_CODE" js="on" ><![CDATA[Master Code]]></msg>
+ <msg name="EXP_MASTER_CODE" js="on" ><![CDATA[Please enter master name in alphanumeric values (ex."shohin_master","shizai_master", etc...).This code will be used to refer in submission template. This code can not be modified later.]]></msg>
+ <msg name="MASTER_NAME" js="on" ><![CDATA[Master Name]]></msg>
+ <msg name="EXP_MASTER_NAME" js="on" ><![CDATA[Enter a name. Ex. "Product Master","Material Master", etc.]]></msg>
+ <msg name="MASTER_DATA_KEY_NAME" js="on" ><![CDATA[Key Attribute Name]]></msg>
+ <msg name="EXP_MASTER_DATA_KEY_NAME" js="on" ><![CDATA[Please enter an original ID item name in Master Data.(Ex.:Product Code)]]></msg>
+ <msg name="MASTER_ATTRIBUTE_NAME" js="on" ><![CDATA[Item Name]]></msg>
+ <msg name="EXP_MASTER_ATTRIBUTE_NAME" js="on" ><![CDATA[Enter Master Data Item name.(Ex.Product Name)]]></msg>
+ <msg name="MASTER_COMMENT" js="on" ><![CDATA[(Comment)]]></msg>
+ <msg name="MASTER_DELETE" js="on" ><![CDATA[Delete Master]]></msg>
+ <msg name="COMFIRM_MASTER_DELETE" js="on" ><![CDATA[Deleting master data. Are you sure?]]></msg>
+ <msg name="EXP_ABOUT_IMPORT_BULKUPDATE_CSV" js="on" ><![CDATA[You can batch update data using CSV files(UTF-8(No BOM)).<BR> Type in first line "IU" to add/update, "I" to add, "U" to update, "D" to delete. Sample CSV file ->]]></msg>
+ <msg name="NOT_CREATE" js="on" ><![CDATA[No creation right]]></msg>
+ <msg name="VIEW_FILTER_LAST_MONTH" js="on" ><![CDATA[Last Month]]></msg>
+ <msg name="VIEW_FILTER_THIS_MONTH" js="on" ><![CDATA[This Month]]></msg>
+ <msg name="VIEW_FILTER_NEXT_MONTH" js="on" ><![CDATA[Next Month]]></msg>
+ <msg name="VIEW_FILTER_LAST_WEEK" js="on" ><![CDATA[Last Week]]></msg>
+ <msg name="VIEW_FILTER_THIS_WEEK" js="on" ><![CDATA[This Week]]></msg>
+ <msg name="VIEW_FILTER_NEXT_WEEK" js="on" ><![CDATA[Next Week]]></msg>
+ <msg name="VIEW_FILTER_YESTERDAY" js="on" ><![CDATA[Yesterday]]></msg>
+ <msg name="VIEW_FILTER_NOT_TODAY" js="on" ><![CDATA[Today]]></msg>
+ <msg name="VIEW_FILTER_TOMORROW" js="on" ><![CDATA[Tomorrow]]></msg>
+ <msg name="VIEW_FILTER_EQUAL" js="on" ><![CDATA[is equal to the following value]]></msg>
+ <msg name="VIEW_FILTER_NOT_EQUAL" js="on" ><![CDATA[is not equal to the following value]]></msg>
+ <msg name="VIEW_FILTER_CONTAIN" js="on" ><![CDATA[includes the following value]]></msg>
+ <msg name="VIEW_FILTER_NOT_CONTAIN" js="on" ><![CDATA[does not include the following value]]></msg>
+ <msg name="VIEW_FILTER_STARTS_WITH" js="on" ><![CDATA[starts with the following value]]></msg>
+ <msg name="VIEW_FILTER_ENDS_WITH" js="on" ><![CDATA[ends with the following value]]></msg>
+ <msg name="VIEW_FILTER_EMPTY" js="on" ><![CDATA[is empty]]></msg>
+ <msg name="VIEW_FILTER_NOT_EMPTY" js="on" ><![CDATA[is not empty]]></msg>
+ <msg name="VIEW_FILTER_BETWEEN" js="on" ><![CDATA[is between the following]]></msg>
+ <msg name="VIEW_FILTER_NOT_BETWEEN" js="on" ><![CDATA[is not between the following]]></msg>
+ <msg name="VIEW_FILTER_IS_AFTER" js="on" ><![CDATA[is before the following]]></msg>
+ <msg name="VIEW_FILTER_IS_BEFORE" js="on" ><![CDATA[is after the following]]></msg>
+ <msg name="VIEW_FILTER_AND" js="on" ><![CDATA[and]]></msg>
+ <msg name="VIEW_FILTER_OR" js="on" ><![CDATA[or]]></msg>
+ <msg name="VIEW_FILTER_FILTER_CONDITION" js="on" ><![CDATA[filter condition]]></msg>
+ <msg name="VIEW_FILTER_DESC" js="on" ><![CDATA[Descending]]></msg>
+ <msg name="VIEW_FILTER_ASC" js="on" ><![CDATA[Ascending]]></msg>
+ <msg name="NONE_VALUE" js="on" ><![CDATA[None]]></msg>
+ <msg name="FAVORITE" js="on" ><![CDATA[Favorite]]></msg>
+ <msg name="FOLLOW" js="on" ><![CDATA[Follow]]></msg>
+ <msg name="ORDER_DATE" js="on" ><![CDATA[Order Date]]></msg>
+ <msg name="ORDER_DATE_EXP" js="on" ><![CDATA[Order Date]]></msg>
+ <msg name="BILLING_DATE" js="on" ><![CDATA[Billing Date]]></msg>
+ <msg name="BILLING_DATE_EXP" js="on" ><![CDATA[Billing Date]]></msg>
+ <msg name="PRODUCT_NAME" js="on" ><![CDATA[Case/Opportunity]]></msg>
+ <msg name="PRODUCT_TYPE" js="on" ><![CDATA[Type]]></msg>
+ <msg name="PROBABILITY" js="on" ><![CDATA[Probability]]></msg>
+ <msg name="CREATE_BY" js="on" ><![CDATA[Author]]></msg>
+ <msg name="UPDATE_BY" js="on" ><![CDATA[Updated by]]></msg>
+ <msg name="CREATE_DATE" js="on" ><![CDATA[Creation Date]]></msg>
+ <msg name="UPDATE_DATE" js="on" ><![CDATA[Update Date]]></msg>
+ <msg name="PROJECT_NUMBER" js="on" ><![CDATA[Case/Opportunity No.]]></msg>
+ <msg name="COMPLETED_DATE" js="on" ><![CDATA[Completion Date]]></msg>
+ <msg name="DESCRIPTION" js="on" ><![CDATA[Description]]></msg>
+ <msg name="MASTER_COMPANY_NAME" js="on" ><![CDATA[Company Name]]></msg>
+ <msg name="MASTER_CONTACT_NAME" js="on" ><![CDATA[Client Name]]></msg>
+ <msg name="MASTER_PRODUCT_NAME" js="on" ><![CDATA[Case/Opportunity Name]]></msg>
+ <msg name="COMPANY_NAME_KANJI" js="on" ><![CDATA[Company Name(KANJI)]]></msg>
+ <msg name="COMPANY_NAME_KANA" js="on" ><![CDATA[Company Name(KANA)]]></msg>
+ <msg name="COMPANY_FIRST_NAME" js="on" ><![CDATA[Initial]]></msg>
+ <msg name="COMPANY_URL_HOME" js="on" ><![CDATA[URL]]></msg>
+ <msg name="COMPANY_URL_ABOUT" js="on" ><![CDATA[About Company URL]]></msg>
+ <msg name="COMPANY_URL_PRICE" js="on" ><![CDATA[Stock Price URL]]></msg>
+ <msg name="COMPANY_TYPE" js="on" ><![CDATA[Type]]></msg>
+ <msg name="COMPANY_EMPLOYEES" js="on" ><![CDATA[Employees]]></msg>
+ <msg name="COMPANY_STOCK" js="on" ><![CDATA[Stock Code]]></msg>
+ <msg name="COMPANY_CREDIT" js="on" ><![CDATA[Credit Info]]></msg>
+ <msg name="ACTION_NAME" js="on" ><![CDATA[Action Name]]></msg>
+ <msg name="ACTION_TEMPLATE" js="on" ><![CDATA[Type]]></msg>
+ <msg name="ACTION_STATUS" js="on" ><![CDATA[Status]]></msg>
+ <msg name="ACTION_TYPE" js="on" ><![CDATA[Type]]></msg>
+ <msg name="CONTACT_NAME_KJ" js="on" ><![CDATA[Client Name(KANJI)]]></msg>
+ <msg name="CONTACT_NAME_KN" js="on" ><![CDATA[Client Name(KANA)]]></msg>
+ <msg name="CONTACT_COMPANY_NAME" js="on" ><![CDATA[Company Name]]></msg>
+ <msg name="CONTACT_DEPARTMENT_1" js="on" ><![CDATA[Department 1]]></msg>
+ <msg name="CONTACT_DEPARTMENT_2" js="on" ><![CDATA[Department 2]]></msg>
+ <msg name="CONTACT_DIVISION" js="on" ><![CDATA[Department Name]]></msg>
+ <msg name="CONTACT_JOB_TITLE" js="on" ><![CDATA[Job Title]]></msg>
+ <msg name="CONTACT_EMAIL_1" js="on" ><![CDATA[Email]]></msg>
+ <msg name="CONTACT_TEL_NUMBER" js="on" ><![CDATA[TEL]]></msg>
+ <msg name="CONTACT_FAX_NUMBER" js="on" ><![CDATA[FAX]]></msg>
+ <msg name="CONTACT_HOME_TEL" js="on" ><![CDATA[TEL(Home)]]></msg>
+ <msg name="CONTACT_MOBILE_TEL" js="on" ><![CDATA[MOBILE]]></msg>
+ <msg name="FAVORITE_EXP" js="on" ><![CDATA[Favorite]]></msg>
+ <msg name="FOLLOW_EXP" js="on" ><![CDATA[Follow]]></msg>
+ <msg name="ATTACH_EXP" js="on" ><![CDATA[Attach]]></msg>
+ <msg name="PRODUCT_NAME_EXP" js="on" ><![CDATA[Case/Opportunity]]></msg>
+ <msg name="PRODUCT_TYPE_EXP" js="on" ><![CDATA[Type]]></msg>
+ <msg name="PROBABILITY_EXP" js="on" ><![CDATA[Probability]]></msg>
+ <msg name="CREATE_BY_EXP" js="on" ><![CDATA[Created by]]></msg>
+ <msg name="CREATE_DATE_EXP" js="on" ><![CDATA[Created on]]></msg>
+ <msg name="UPDATE_DATE_EXP" js="on" ><![CDATA[Updated on]]></msg>
+ <msg name="PROJECT_NUMBER_EXP" js="on" ><![CDATA[Case/Opportunity No.]]></msg>
+ <msg name="COMPLETED_DATE_EXP" js="on" ><![CDATA[End date]]></msg>
+ <msg name="DESCRIPTION_EXP" js="on" ><![CDATA[Description]]></msg>
+ <msg name="MASTER_COMPANY_NAME_EXP" js="on" ><![CDATA[Company Name]]></msg>
+ <msg name="MASTER_CONTACT_NAME_EXP" js="on" ><![CDATA[Client Name]]></msg>
+ <msg name="MASTER_PRODUCT_NAME_EXP" js="on" ><![CDATA[Case/Opportunity Name]]></msg>
+ <msg name="COMPANY_NAME_KANJI_EXP" js="on" ><![CDATA[Company Name(KANJI)]]></msg>
+ <msg name="COMPANY_NAME_KANA_EXP" js="on" ><![CDATA[Company Name(KANA)]]></msg>
+ <msg name="COMPANY_FIRST_NAME_EXP" js="on" ><![CDATA[Initial]]></msg>
+ <msg name="COMPANY_URL_HOME_EXP" js="on" ><![CDATA[URL]]></msg>
+ <msg name="COMPANY_URL_ABOUT_EXP" js="on" ><![CDATA[About Company URL]]></msg>
+ <msg name="COMPANY_URL_PRICE_EXP" js="on" ><![CDATA[Stock Price URL]]></msg>
+ <msg name="COMPANY_TYPE_EXP" js="on" ><![CDATA[Type]]></msg>
+ <msg name="COMPANY_EMPLOYEES_EXP" js="on" ><![CDATA[Employees]]></msg>
+ <msg name="COMPANY_STOCK_EXP" js="on" ><![CDATA[Stock Code]]></msg>
+ <msg name="COMPANY_CREDIT_EXP" js="on" ><![CDATA[Credit Info]]></msg>
+ <msg name="ACTION_NAME_EXP" js="on" ><![CDATA[Action Name]]></msg>
+ <msg name="ACTION_TEMPLATE_EXP" js="on" ><![CDATA[Type]]></msg>
+ <msg name="ACTION_STATUS_EXP" js="on" ><![CDATA[Status]]></msg>
+ <msg name="CONTACT_NAME_KJ_EXP" js="on" ><![CDATA[Client Name(KANJI)]]></msg>
+ <msg name="CONTACT_NAME_KN_EXP" js="on" ><![CDATA[Client Name(KANA)]]></msg>
+ <msg name="CONTACT_COMPANY_NAME_EXP" js="on" ><![CDATA[Company Name]]></msg>
+ <msg name="CONTACT_DEPARTMENT_1_EXP" js="on" ><![CDATA[Department 1]]></msg>
+ <msg name="CONTACT_DEPARTMENT_2_EXP" js="on" ><![CDATA[Department 2]]></msg>
+ <msg name="CONTACT_JOB_TITLE_EXP" js="on" ><![CDATA[Job Title]]></msg>
+ <msg name="CONTACT_EMAIL_1_EXP" js="on" ><![CDATA[Email]]></msg>
+ <msg name="CONTACT_TEL_NUMBER_EXP" js="on" ><![CDATA[TEL]]></msg>
+ <msg name="CONTACT_FAX_NUMBER_EXP" js="on" ><![CDATA[FAX]]></msg>
+ <msg name="CONTACT_HOME_TEL_EXP" js="on" ><![CDATA[TEL(Home)]]></msg>
+ <msg name="CONTACT_MOBILE_TEL_EXP" js="on" ><![CDATA[MOBILE]]></msg>
+ <msg name="VIEW_COMMON_INFO" js="on" ><![CDATA[View info]]></msg>
+ <msg name="VIEW_READ_RESTRICT" js="on" ><![CDATA[Reader control]]></msg>
+ <msg name="VIEW_READ_RESTRICT_EXP" js="on" ><![CDATA[Enter the user or group mail address to allow View. Separate by spaces for multiple entry. All users could access this View when left blank.]]></msg>
+ <msg name="VIEW_SHOW_LIST_ITEMS" js="on" ><![CDATA[Column Display Setting]]></msg>
+ <msg name="VIEW_FILTER_CONDITION" js="on" ><![CDATA[Filter Setting]]></msg>
+ <msg name="VIEW_DISPLAY_GROUP" js="on" ><![CDATA[Group Display Setting]]></msg>
+ <msg name="INPUT_FORM_SENDTO_ADDRESS" js="on" ><![CDATA[Notification Destination]]></msg>
+ <msg name="PANEL_COMPANY" js="on" ><![CDATA[Company Master]]></msg>
+ <msg name="PANEL_CONTACT" js="on" ><![CDATA[Client Master]]></msg>
+ <msg name="PANEL_EVENT" js="on" ><![CDATA[Action Master]]></msg>
+ <msg name="PANEL_PRODUCT" js="on" ><![CDATA[Case/Opportunity Master]]></msg>
+ <msg name="VIEW_TITLE" js="on" ><![CDATA[View Name]]></msg>
+ <msg name="COMPANY_TEMPLATE" js="on" ><![CDATA[Company M[Entry]]]></msg>
+ <msg name="CONTACT_TEMPLATE" js="on" ><![CDATA[Client M[Entry]]></msg>
+ <msg name="PRODUCT_TEMPLATE" js="on" ><![CDATA[Case/Opportunity M[Entry]]></msg>
+ <msg name="EVENT_TEMPLATE" js="on" ><![CDATA[Action M[Entry]]]></msg>
+ <msg name="COMPANY_VIEW" js="on" ><![CDATA[Company M[View]]]></msg>
+ <msg name="CONTACT_VIEW" js="on" ><![CDATA[Client M[View]]]></msg>
+ <msg name="PRODUCT_VIEW" js="on" ><![CDATA[Case/Opportunity M[View]]]></msg>
+ <msg name="EVENT_VIEW" js="on" ><![CDATA[Action M[View]]]></msg>
+ <msg name="BY_SOMETHING" js="on" ><![CDATA[By %1]]></msg>
+ <msg name="SETTING_COLUMN" js="on" ><![CDATA[Column Setting]]></msg>
+ <msg name="COPY" js="on" ><![CDATA[Copy new]]></msg>
+ <msg name="TYPE" js="on" ><![CDATA[Type]]></msg>
+ <msg name="AUTO_SYNC_HISTORY" js="on" ><![CDATA[Auto Sync History(LAst 30)]]></msg>
+ <msg name="AUTO_SYNC_START_HOUR" js="on" ><![CDATA[Auto Update Start Time（0-23）]]></msg>
+ <msg name="ENABLE_AUTO_SYNC" js="on" ><![CDATA[Auto Sync User information with Google Apps user]]></msg>
+ <msg name="SYNC_MESSAGE" js="on" ><![CDATA[Result]]></msg>
+ <msg name="SYNC_START_DATE" js="on" ><![CDATA[Sync Start Date]]></msg>
+ <msg name="SYNC_FINISHED_DATE" js="on" ><![CDATA[Sync End Date]]></msg>
+ <msg name="AUTO_SYNC_SETTING" js="on" ><![CDATA[Auto Sync Setting]]></msg>
+ <msg name="EXP_AUTO_SYNC_SETTING1" js="on" ><![CDATA[You can set Auto Sync of user information with Google Apps user.]]></msg>
+ <msg name="EXP_AUTO_SYNC_SETTING2" js="on" ><![CDATA[Batch execution will start at configured time, the user registered to Google Apps will be added to User information, and users who do not exist on Google Apps will be deleted from User Information>]]></msg>
+ <msg name="OTHER_APPLICATION_REFERENCE_SETTING" js="on" ><![CDATA[Other Application ID Reference Setting]]></msg>
+ <msg name="ADMIN_USER_LIST" js="on" ><![CDATA[User Information]]></msg>
+ <msg name="OTHER_APP_ID_REFERENCE_SETTING" js="on" ><![CDATA[Other Application ID Reference Setting]]></msg>
+ <msg name="APP_ID_TO_USE_USER_INFO" js="on" ><![CDATA[Reference Application ID]]></msg>
+ <msg name="USE_OTHER_APP_ID_USER_INFO" js="on" ><![CDATA[Refer to Other Application ID User Information]]></msg>
+ <msg name="EXP_OTHER_APP_ID_REFERENCE_SETTING2" js="on" ><![CDATA[If you configure to use User Information on Other Application ID, the User Information registered within this Application ID will not be used.]]></msg>
+ <msg name="EXP_OTHER_APP_ID_REFERENCE_SETTING1" js="on" ><![CDATA[You can configure to use User Information from other Application ID within this Application ID.]]></msg>
+ <msg name="ERR_USER_INFO_NOT_FOUND_IN_APP_ID" js="on" ><![CDATA[User Information was not found within the specified Application ID]]></msg>
+ <msg name="ERR_OTHER_APP_ID_NOT_FOUND" js="on" ><![CDATA[The specified Application ID was not found. Please check Application ID spelling.]]></msg>
+ <msg name="ALL_USERS_EXPORT" js="on" ><![CDATA[Create CSV file for all Google Apps Users]]></msg>
+ <msg name="EXP_ALL_USERS_EXPORT1" js="on" ><![CDATA[Create CSV file for all Google Apps users.]]></msg>
+ <msg name="EXP_ALL_USERS_EXPORT2" js="on" ><![CDATA[When finished, CSV file Download URL will be sent to ]]></msg>
+ <msg name="EXP_ALL_USERS_EXPORT3" js="on" ><![CDATA[.]]></msg>
+ <msg name="EXP_ALL_USERS_EXPORT4" js="on" ><![CDATA[In the CSV file, the registered user data would be included for existing users and a blank line will be included for unregistered users.]]></msg>
+ <msg name="START_ALL_USERS_EXPORT" js="on" ><![CDATA[Start creating CSV file for all Google Apps Users]]></msg>
+ <msg name="ERR_FAILED_ALL_USERS_EXPORT" js="on" ><![CDATA[An error occurred while starting CSV file creation]]></msg>
+ <msg name="MSG_STARTED_ALL_USERS_EXPORT" js="on" ><![CDATA[Started creating CSV file]]></msg>
+ <msg name="DOCUMENT_MANAGEMENT" js="on" ><![CDATA[Document Management]]></msg>
+ <msg name="IMPORT_CSV_FILE" js="on" ><![CDATA[CSV file Import]]></msg>
+ <msg name="USERINFO_LIST" js="on" ><![CDATA[User Info List]]></msg>
+ <msg name="USERINFO_EMAIL" js="on" ><![CDATA[Email]]></msg>
+ <msg name="USERINFO_FAMILY_NAME" js="on" ><![CDATA[Name(Family)]]></msg>
+ <msg name="USERINFO_GIVEN_NAME" js="on" ><![CDATA[Name(First)]]></msg>
+ <msg name="USERINFO_DEPARTMENT_1" js="on" ><![CDATA[Department 1(Office)]]></msg>
+ <msg name="USERINFO_DEPARTMENT_2" js="on" ><![CDATA[Department 2(Unit)]]></msg>
+ <msg name="USERINFO_DEPARTMENT_3" js="on" ><![CDATA[Department 3 (Group)]]></msg>
+ <msg name="USERINFO_JOB_TITLE" js="on" ><![CDATA[Job Title]]></msg>
+ <msg name="USERINFO_BOSS_EMAIL" js="on" ><![CDATA[Approver]]></msg>
+ <msg name="USERINFO_EMPLOYEE_ID" js="on" ><![CDATA[Employee ID]]></msg>
+ <msg name="USERINFO_USER_ATTRIBUTE" js="on" ><![CDATA[Additional Attribute]]></msg>
+ <msg name="USERINFO_WORKFLOW_GROUPS" js="on" ><![CDATA[Workflow Group]]></msg>
+ <msg name="USERINFO_DEPUTY_APPROVERS" js="on" ><![CDATA[Delegate Approver]]></msg>
+ <msg name="USERINFO_GHOST_WRITERS" js="on" ><![CDATA[Delegate Submitter]]></msg>
+ <msg name="USERINFO_LANGUAGE" js="on" ><![CDATA[Language]]></msg>
+ <msg name="CSV_IMPORT" js="on" ><![CDATA[CSV file Import]]></msg>
+ <msg name="FAILED_CSV_IMPORT" js="on" ><![CDATA[An error occurred while importing CSV file]]></msg>
+ <msg name="START_CSV_IMPORT" js="on" ><![CDATA[Started importing CSV file]]></msg>
+ <msg name="START_IMPORT" js="on" ><![CDATA[Start Import]]></msg>
+ <msg name="CSV_IMPORT_CURRENT_HISTORY" js="on" ><![CDATA[Import Log(Last10)]]></msg>
+ <msg name="IMPORT_DATE" js="on" ><![CDATA[Date]]></msg>
+ <msg name="NUM_CSV_ROW" js="on" ><![CDATA[Rows]]></msg>
+ <msg name="NUM_ERROR" js="on" ><![CDATA[Error Count]]></msg>
+ <msg name="EXP_ABOUT_IMPORT_CSV" js="on" ><![CDATA[You can import Master information using CSV file (Shift JIS). Sample CSV file ->]]></msg>
+ <msg name="EXP_USER_INFO_IMPORT_CSV" js="on" ><![CDATA[You can import user information using CSV files (Shift JIS). Sample CSV file ->]]></msg>
+ <msg name="HERE" js="on" ><![CDATA[HERE]]></msg>
+ <msg name="DOC_FILE_UPLOAD_DROP1" js="on" ><![CDATA[Drop file here]]></msg>
+ <msg name="DOC_FILE_UPLOAD_DROP2" js="on" ><![CDATA[Add as file attachment]]></msg>
+ <msg name="DOC_FILE_UPLOAD_DROP3" js="on" ><![CDATA[:Upload]]></msg>
+ <msg name="DOC_FILE_UPLOAD_DROP4" js="on" ><![CDATA[%]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_MSG1" js="on" ><![CDATA[*You can attach up to 200 MB.]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_MSG2" js="on" ><![CDATA[Select file]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_MSG3" js="on" ><![CDATA[File attached]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_ERR1" js="on" ><![CDATA[Failed to attach file: File size too big.]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_ERR2" js="on" ><![CDATA[An error occurred while uploading file attachment. Please try again later.]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_ERR3" js="on" ><![CDATA[An error occurred while uploading file attachment]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_MSG4" js="on" ><![CDATA[*You can attach up to 200 MB.]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_DELETE" js="on" ><![CDATA[File attachment deleted]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_DELETE_ERR1" js="on" ><![CDATA[An error occurred while deleting file attachment. Please try again later.]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_DELETE_ERR2" js="on" ><![CDATA[An error occurred while deleting file attachment]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_LINK1" js="on" ><![CDATA[Copy link to this file]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_LINK2" js="on" ><![CDATA[Copy Rich text link to image file]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_LINK3" js="on" ><![CDATA[Copied shortcut link to file attachment. Paste (Ctrl+V) to Rich text field of editing data.]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT_LINK4" js="on" ><![CDATA[Copied link for displaying image file within rich text field. Paste(Ctrl+V) to Rich text field of editing data.]]></msg>
+ <msg name="CUSTOM_FIELD_STATUS" js="on" ><![CDATA[Custom Field]]></msg>
+ <msg name="CUSTOM_FIELD_PROPETY" js="on" ><![CDATA[Custom Property Field]]></msg>
+ <msg name="MOVE_DOWN" js="on" ><![CDATA[Move Down]]></msg>
+ <msg name="MOVE_UP" js="on" ><![CDATA[Move Up]]></msg>
+ <msg name="FIELD_DESCRIPTION" js="on" ><![CDATA[Field Description]]></msg>
+ <msg name="COL_WIDTH" js="on" ><![CDATA[Width(px)]]></msg>
+ <msg name="SHOW_OR_NOT" js="on" ><![CDATA[Show]]></msg>
+ <msg name="SHOW_OR_NOT_EXP" js="on" ><![CDATA[Hide from general users(Show to admin)]]></msg>
+ <msg name="SORT_ORDER" js="on" ><![CDATA[Sorting]]></msg>
+ <msg name="EXP_CUSTOM_FIELD" js="on" ><![CDATA[Field name defined to template]]></msg>
+ <msg name="CUSTOM_FIELD_NAME" js="on" ><![CDATA[Custom Field Name]]></msg>
+ <msg name="GRID_COLUMN_SETTING" js="on" ><![CDATA[Column Setting]]></msg>
+ <msg name="SATERAITO_OFFICE" js="on" ><![CDATA[Sateraito Office]]></msg>
+ <msg name="CLOUD_CRM" js="on" ><![CDATA[Cloud CRM]]></msg>
+ <msg name="USER_VOICE" js="on" ><![CDATA[Feedbacks V]]></msg>
+ <msg name="USER" js="on" ><![CDATA[User]]></msg>
+ <msg name="RETRYING" js="on" ><![CDATA[Reloading...]]></msg>
+ <msg name="FAILED_TO_LOAD_USER_INFOMATION" js="on" ><![CDATA[An error occurred while loading users]]></msg>
+ <msg name="FAILED_TO_LOAD_GROUP_MEMBER_INFOMATION" js="on" ><![CDATA[An error occurred while loading group members]]></msg>
+ <msg name="NOW_LOADING" js="on" ><![CDATA[Loading...]]></msg>
+ <msg name="FAILED_TO_LOAD_SETTINGS" js="on" ><![CDATA[An error occurred while loading settings]]></msg>
+ <msg name="MESSAGE" js="on" ><![CDATA[Message]]></msg>
+ <msg name="CANCEL" js="on" ><![CDATA[Cancel]]></msg>
+ <msg name="OK" js="on" ><![CDATA[OK]]></msg>
+ <msg name="YES" js="on" ><![CDATA[YES]]></msg>
+ <msg name="NO" js="on" ><![CDATA[NO]]></msg>
+ <msg name="CURRENTLY_NOT_AVAILABLE" js="on" ><![CDATA[*Currently unavailable. Please contact the administrator.]]></msg>
+ <msg name="FAILED_TO_LOAD_DATA" js="on" ><![CDATA[An error occurred while loading]]></msg>
+ <msg name="LOGOUT" js="on" ><![CDATA[Log out]]></msg>
+ <msg name="USER_NAME" js="on" ><![CDATA[User Name]]></msg>
+ <msg name="SEARCH" js="on" ><![CDATA[Search]]></msg>
+ <msg name="SEARCH_CONDITION" js="on" ><![CDATA[Search Condition]]></msg>
+ <msg name="USER_SEARCH" js="on" ><![CDATA[User Search]]></msg>
+ <msg name="NAME" js="on" ><![CDATA[Name]]></msg>
+ <msg name="FAMILY_NAME" js="on" ><![CDATA[Name(Family)]]></msg>
+ <msg name="GIVEN_NAME" js="on" ><![CDATA[Name(First)]]></msg>
+ <msg name="CLOSE" js="on" ><![CDATA[Close]]></msg>
+ <msg name="NAME_KANA" js="on" ><![CDATA[Name(KANA)]]></msg>
+ <msg name="COMPANY_NAME" js="on" ><![CDATA[Company Name]]></msg>
+ <msg name="MORE_THAN_100_ROWS_FOUND" js="on" ><![CDATA[Over 100 search results. Showing only the first 100.]]></msg>
+ <msg name="PHONE_WORK" js="on" ><![CDATA[Company Telephone Number]]></msg>
+ <msg name="EXTENSION_NUMBER" js="on" ><![CDATA[Extension Number]]></msg>
+ <msg name="MY_DRAFT_DOCUMENTS" js="on" ><![CDATA[Draft]]></msg>
+ <msg name="CREATE_NEW_WORKFLOW_DOCUMENT" js="on" ><![CDATA[New]]></msg>
+ <msg name="RELOADING" js="on" ><![CDATA[Reloading...]]></msg>
+ <msg name="LOADING" js="on" ><![CDATA[Loading...]]></msg>
+ <msg name="CHECKINGUSER" js="on" ><![CDATA[Signing in...]]></msg>
+ <msg name="SIGN_IN" js="on" ><![CDATA[Sign In]]></msg>
+ <msg name="ERROR_OCCURRED_FAILED_TO_SEND_NEW_WORKFLOW_DOC" js="on" ><![CDATA[An error occurred while creating new]]></msg>
+ <msg name="NEW_DOC_IS_POST" js="on" ><![CDATA[Data created.]]></msg>
+ <msg name="SATERAITO_BBS" js="on" ><![CDATA[Sateraito Office - Cloud CRM]]></msg>
+ <msg name="NOW_POSTING" js="on" ><![CDATA[Submitting...]]></msg>
+ <msg name="NOW_SAVING" js="on" ><![CDATA[Saving...]]></msg>
+ <msg name="SAVED_AS_DRAFT" js="on" ><![CDATA[Saved draft]]></msg>
+ <msg name="FAILED_TO_GET_SIGN_IN_INFO" js="on" ><![CDATA[Failed to obtain authorization information]]></msg>
+ <msg name="EXPORT_CSV_FILE" js="on" ><![CDATA[CSV Export]]></msg>
+ <msg name="NOW_UPDATING" js="on" ><![CDATA[Updating...]]></msg>
+ <msg name="POST_COMMENT" js="on" ><![CDATA[Comment]]></msg>
+ <msg name="POST_COMMENT_PLUS_SEND_MAIL" js="on" ><![CDATA[Comment & Notify the author]]></msg>
+ <msg name="UPGRADE" js="on" ><![CDATA[Upgrade]]></msg>
+ <msg name="DEFINE_INPUT_FORM" js="on" ><![CDATA[Entry Form Definition]]></msg>
+ <msg name="DEFINE_SETTING_CALENDAR" js="on" ><![CDATA[Calendar Setting]]></msg>
+ <msg name="VIEW_FILTER_ITEMS" js="on" ><![CDATA[View Filter Item Setting]]></msg>
+ <msg name="VIEW_FILTER_ITEMS_EXP" js="on" ><![CDATA[*You will be able to set filters when creating View for the checked items.]]></msg>
+ <msg name="DELETE_ACTION_INPUT_FORM" js="on" ><![CDATA[Delete entry form]]></msg>
+ <msg name="DELETE_VIEW_DEFINE" js="on" ><![CDATA[Delete View]]></msg>
+ <msg name="DOC_SEARCH" js="on" ><![CDATA[Data Search]]></msg>
+ <msg name="STATUS" js="on" ><![CDATA[Status]]></msg>
+ <msg name="DOC_TITLE" js="on" ><![CDATA[Title]]></msg>
+ <msg name="TEMPLATE_LIMIT_POSTED" js="on" ><![CDATA[Creation Rights]]></msg>
+ <msg name="TEMPLATE_LIMIT_UPDATE" js="on" ><![CDATA[Update Rights]]></msg>
+ <msg name="TEMPLATE_LIMIT_DELETE" js="on" ><![CDATA[Deletion Rights]]></msg>
+ <msg name="TEMPLATE_DATE_EXPIRATION" js="on" ><![CDATA[Expiration Date]]></msg>
+ <msg name="TEMPLATE_DATE_EXPIRATION_DESCRIT" js="on" ><![CDATA[Set an expiration date. You can not submit to forms out of this expiration date.]]></msg>
+ <msg name="TEMPLATE_POSITION" js="on" ><![CDATA["Data Info" Display Position]]></msg>
+ <msg name="TEMPLATE_INITIAL" js="on" ><![CDATA[Default Display]]></msg>
+ <msg name="TEMPLATE_TITLE" js="on" ><![CDATA[Title]]></msg>
+ <msg name="TEMPLATE_CONTEND" js="on" ><![CDATA[Content]]></msg>
+ <msg name="AUTHOR_NAME" js="on" ><![CDATA[Author]]></msg>
+ <msg name="AUTHOR_EMAIL" js="on" ><![CDATA[Author Email address]]></msg>
+ <msg name="NOW_DELETING" js="on" ><![CDATA[Deleting...]]></msg>
+ <msg name="NOW_COPYING" js="on" ><![CDATA[Copying...]]></msg>
+ <msg name="DELETING_DOC_CONFIRM" js="on" ><![CDATA[Deleting data. Deleted data could not be restored. Are you sure?]]></msg>
+ <msg name="DOC_DELETED" js="on" ><![CDATA[Data deleted]]></msg>
+ <msg name="DOC_COPY" js="on" ><![CDATA[Copy data]]></msg>
+ <msg name="POST_NEW" js="on" ><![CDATA[Create new]]></msg>
+ <msg name="DELETE_DRAFT" js="on" ><![CDATA[Delete draft]]></msg>
+ <msg name="EDIT_DOC" js="on" ><![CDATA[Edit data]]></msg>
+ <msg name="UPDATE" js="on" ><![CDATA[Update data]]></msg>
+ <msg name="OTHER_SETTING" js="on" ><![CDATA[Other Settings]]></msg>
+ <msg name="GENERAL_SETTING" js="on" ><![CDATA[General Setting]]></msg>
+ <msg name="START_TO_USE_SETTING" js="on" ><![CDATA[Default Setting]]></msg>
+ <msg name="USE_ADDRESS_BOOK_SETTING" js="on" ><![CDATA[Group Address Book Usage Setting]]></msg>
+ <msg name="IMPERSONATE_EMAIL_SETTING" js="on" ><![CDATA[Activation Setting]]></msg>
+ <msg name="IMPERSONATE_EMAIL_SETTING_DES2" js="on" ><![CDATA[*Activated for your environment. Administrator Account:]]></msg>
+ <msg name="IMPERSONATE_EMAIL_SETTING_DES" js="on" ><![CDATA[Click the button to allow general users to start using application. (Please re-configure whenever administrator has changed email address).]]></msg>
+ <msg name="SAVE" js="on" ><![CDATA[Save]]></msg>
+ <msg name="SETTING_SAVED" js="on" ><![CDATA[Save setting]]></msg>
+ <msg name="ADD_FROM_ADDRESS_BOOK" js="on" ><![CDATA[Add from Group Address Book]]></msg>
+ <msg name="SELECT_DOC_TEMPLATE" js="on" ><![CDATA[*Select entry form]]></msg>
+ <msg name="ERROR_WHILE_LOADING" js="on" ><![CDATA[An error occurred while loading]]></msg>
+ <msg name="ERROR_TIMEOUT" js="on" ><![CDATA[Session timed out. Please reload browser.]]></msg>
+ <msg name="ENTER_SITE_BBS_PAGE_URL" js="on" ><![CDATA[Enter URL]]></msg>
+ <msg name="SELECT_DOC_TEMPLATE_TO_USE_IMPORT" js="on" ><![CDATA[Select entry form]]></msg>
+ <msg name="SELECT_RICH_TEXT_FIELD_NAME" js="on" ><![CDATA[Enter a Rich Text Field Name]]></msg>
+ <msg name="NOT_FOUND_RICHTEXT_FIELD_NAME_IN_SELECTED_TEMPLATE" js="on" ><![CDATA[Rich Text Field Name not found within template]]></msg>
+ <msg name="URL_IS_NOT_BBS_PAGE_URL" js="on" ><![CDATA[The given URL is not that of the Notification Page]]></msg>
+ <msg name="PAGE_NOT_FOUND_FOR_THE_URL" js="on" ><![CDATA[Page not found for the URL]]></msg>
+ <msg name="INPUT_DOCUMENT_TITLE" js="on" ><![CDATA[Enter a title]]></msg>
+ <msg name="SATERAITO_OFFICE_BBS_SYSTEM" js="on" ><![CDATA[Cloud CRM]]></msg>
+ <msg name="PRIORITY" js="on" ><![CDATA[Priority]]></msg>
+ <msg name="DEPARTMENT" js="on" ><![CDATA[Department]]></msg>
+ <msg name="DOC_TYPE" js="on" ><![CDATA[Type]]></msg>
+ <msg name="NUM_READ" js="on" ><![CDATA[Read count]]></msg>
+ <msg name="SUBMIT_DATE" js="on" ><![CDATA[Submission Date]]></msg>
+ <msg name="INPUT_SEARCH_KEYWORD" js="on" ><![CDATA[Enter search query]]></msg>
+ <msg name="COMPANY_KEYWORD" js="on" ><![CDATA[Company Name]]></msg>
+ <msg name="PROJECT_KEYWORD" js="on" ><![CDATA[Case/Opportunity]]></msg>
+ <msg name="CONTACT_KEYWORD" js="on" ><![CDATA[Client]]></msg>
+ <msg name="RELOAD_DOCS" js="on" ><![CDATA[Reload]]></msg>
+ <msg name="ACCOUNTS_LIST" js="on" ><![CDATA[Company List]]></msg>
+ <msg name="CONTACTS_LIST" js="on" ><![CDATA[Client List]]></msg>
+ <msg name="PROJECTS_LIST" js="on" ><![CDATA[Case/Opportunity List]]></msg>
+ <msg name="ACTIONS_LIST" js="on" ><![CDATA[Action List]]></msg>
+ <msg name="FIRST_PAGE" js="on" ><![CDATA[<< First Page]]></msg>
+ <msg name="PREV_PAGE" js="on" ><![CDATA[< Prev Page]]></msg>
+ <msg name="NEXT_PAGE" js="on" ><![CDATA[Next Page >]]></msg>
+ <msg name="BBS_DOCS" js="on" ><![CDATA[Cloud CRM]]></msg>
+ <msg name="FAVORITES_BBS_DOCS" js="on" ><![CDATA[Favorite]]></msg>
+ <msg name="NOW_SEARCHING" js="on" ><![CDATA[Searching...]]></msg>
+ <msg name="SETTING_HAVE_DOUBLE_BYTE_CHAR" js="on" ><![CDATA[Double-byte character is included in setting]]></msg>
+ <msg name="SETTING_HAVE_NON_EMAIL_FORMAT_STRING" js="on" ><![CDATA[Invalid Mail Address]]></msg>
+ <msg name="BBS_SETTING_SAVED" js="on" ><![CDATA[Setting saved]]></msg>
+ <msg name="DOC_BULK_UPDATE" js="on" ><![CDATA[Data Batch Update]]></msg>
+ <msg name="INPUT_DOC_TITLE" js="on" ><![CDATA[Enter title]]></msg>
+ <msg name="SHOWN_OR_EXPORTED_UP_TO_1000_RECORDS" js="on" ><![CDATA[(Display/Export up to 1000)]]></msg>
+ <msg name="ENTER_DOC_TITLE" js="on" ><![CDATA[Enter title]]></msg>
+ <msg name="POST_DOC" js="on" ><![CDATA[Register Data]]></msg>
+ <msg name="SAVE_AS_DRAFT" js="on" ><![CDATA[Save Draft]]></msg>
+ <msg name="FAILED_TO_EXPORT_CSV" js="on" ><![CDATA[Failed CSV export]]></msg>
+ <msg name="SELECT_TEMPLATE_TO_EXPORT_CSV" js="on" ><![CDATA[Select Entry form to export by CSV]]></msg>
+ <msg name="BBS_SETTING" js="on" ><![CDATA[Application Setting]]></msg>
+ <msg name="IMPORT_FROM_GOOGLE_SITE_BBS" js="on" ><![CDATA[Import from Google Site]]></msg>
+ <msg name="ADMIN_CONSOLE" js="on" ><![CDATA[Admin Console]]></msg>
+ <msg name="ALL_DOC_TEMPLATES" js="on" ><![CDATA[(All Entry Form)]]></msg>
+ <msg name="SAVED_DATE" js="on" ><![CDATA[Save Date]]></msg>
+ <msg name="STATUS_DRAFT" js="on" ><![CDATA[Draft]]></msg>
+ <msg name="STATUS_POSTED" js="on" ><![CDATA[Posted]]></msg>
+ <msg name="STATUS_BEFORE_PUBLISH" js="on" ><![CDATA[Pending]]></msg>
+ <msg name="STATUS_AFTER_PUBLISH" js="on" ><![CDATA[Unpublished]]></msg>
+ <msg name="OPEN_WINDOW_FOR_PRINTING" js="on" ><![CDATA[Open Print Window]]></msg>
+ <msg name="LINK_TO_THIS_DOC" js="on" ><![CDATA[Link to this data]]></msg>
+ <msg name="MAIL_PASTABLE_LINK" js="on" ><![CDATA[Pastable link]]></msg>
+ <msg name="DELETE_DOC" js="on" ><![CDATA[Data Deletion]]></msg>
+ <msg name="DOC_INFO" js="on" ><![CDATA[Data Info]]></msg>
+ <msg name="CREATE_NO_USING_TEMPLATE" js="on" ><![CDATA[*Create without template]]></msg>
+ <msg name="CREATE_NEW_VIEW" js="on" ><![CDATA[Create new View]]></msg>
+ <msg name="CREATE_NEW_ACTION_INPUT_FORM" js="on" ><![CDATA[Create new Entry Form]]></msg>
+ <msg name="VIEWS_LIST" js="on" ><![CDATA[View List]]></msg>
+ <msg name="ACTION_INPUT_FORMS_LIST" js="on" ><![CDATA[Entry Form List]]></msg>
+ <msg name="SHOW_HIDE" js="on" ><![CDATA[Show]]></msg>
+ <msg name="KEYWORD" js="on" ><![CDATA[Keyword]]></msg>
+ <msg name="CREATED_DATE" js="on" ><![CDATA[Creation Date]]></msg>
+ <msg name="UPDATED_DATE" js="on" ><![CDATA[Update Date]]></msg>
+ <msg name="CREATE_NEW" js="on" ><![CDATA[Create New]]></msg>
+ <msg name="POSTING_NEW_OK" js="on" ><![CDATA[Creating data. Are you sure?]]></msg>
+ <msg name="UPDATING_CONTENT_OK" js="on" ><![CDATA[Updating data. Are you sure?]]></msg>
+ <msg name="CONTENT_UPDATED" js="on" ><![CDATA[Data updated]]></msg>
+ <msg name="DELETE" js="on" ><![CDATA[Delete]]></msg>
+ <msg name="NOT_REGISTERED_USER_TO_WF" js="on" ><![CDATA[You have no  access rights. Please contact administrator.]]></msg>
+ <msg name="SHOW_ALL" js="on" ><![CDATA[Show all]]></msg>
+ <msg name="DOC_AUTHOR_NAME" js="on" ><![CDATA[Name]]></msg>
+ <msg name="PRIORITY_URGENT" js="on" ><![CDATA[Urgent]]></msg>
+ <msg name="PRIORITY_USUALLY" js="on" ><![CDATA[Normal]]></msg>
+ <msg name="CIRCULATION_INFO" js="on" ><![CDATA[Circulation Info]]></msg>
+ <msg name="INFO_CIRCULATOR" js="on" ><![CDATA[Circulate Reader]]></msg>
+ <msg name="INFO_READER" js="on" ><![CDATA[Reader]]></msg>
+ <msg name="INFO_DATE_START_PUBLIC" js="on" ><![CDATA[Publish date]]></msg>
+ <msg name="INFO_DATE_END_PUBLIC" js="on" ><![CDATA[Unpublish date]]></msg>
+ <msg name="DOC_ADD_COMMENT" js="on" ><![CDATA[Add comment]]></msg>
+ <msg name="DOC_COMMENT" js="on" ><![CDATA[Comment]]></msg>
+ <msg name="DOC_COMMENT_REPLY" js="on" ><![CDATA[Reply]]></msg>
+ <msg name="DOC_ATTACHMENT_FILE" js="on" ><![CDATA[File Attachment]]></msg>
+ <msg name="DOC_FILE_ATTACHMENT" js="on" ><![CDATA[File Attachment]]></msg>
+ <msg name="DOC_CONTRIBUTOR" js="on" ><![CDATA[Submit]]></msg>
+ <msg name="DOC_READING" js="on" ><![CDATA[Read:]]></msg>
+ <msg name="MAIL_ADDRESS_CHECK_LIST" js="on" ><![CDATA[Email]]></msg>
+ <msg name="NAME_CHECK_LIST" js="on" ><![CDATA[Name]]></msg>
+ <msg name="DOC_COMMENT_ATTACHMENT_TITLE" js="on" ><![CDATA[Add file to comment]]></msg>
+ <msg name="DOC_COMMENT_ADD_MSG" js="on" ><![CDATA[Posting comment Are you sure?]]></msg>
+ <msg name="DOC_COMMENT_ADD_SEND_MAIL_MSG" js="on" ><![CDATA[Posting comment and notifying the author. Are you sure?]]></msg>
+ <msg name="DOC_COMMENT_ADD_SUCCESS" js="on" ><![CDATA[Comment posted]]></msg>
+ <msg name="DOC_ATTACHMENT_FILE_DOWNLOAD" js="on" ><![CDATA[Download ¥]]></msg>
+ <msg name="INFO_DATE_START_PUBLIC_DES" js="on" ><![CDATA[Set publish date to keep the post unpublished until the given date and to publish on the date.]]></msg>
+ <msg name="INFO_DATE_END_PUBLIC_DES" js="on" ><![CDATA[Set unpublish date to unpublish the post from the date and after.]]></msg>
+ <msg name="INFO_CIRCULATOR_DES" js="on" ><![CDATA[Allow only specified users/groups to read post]]></msg>
+ <msg name="INFO_READER_DES" js="on" ><![CDATA[Circulation User/Group:]]></msg>
+ <msg name="INFO_CIRCULATOR_SELECT" js="on" ><![CDATA[Search User/Group]]></msg>
+ <msg name="DOC_PUBLIC_SEND_MAIL_CHECK" js="on" ><![CDATA[Notify by mail]]></msg>
+ <msg name="ALL_BBS_DOCS" js="on" ><![CDATA[All]]></msg>
+ <msg name="DOC_UPDATE_ERR_MSG" js="on" ><![CDATA[An error occurred while updating]]></msg>
+ <msg name="DOC_READ_MORE" js="on" ><![CDATA[Read more]]></msg>
+ <msg name="DOC_START_DATE_ERR_MSG" js="on" ><![CDATA[Invalid date value: Publish date]]></msg>
+ <msg name="DOC_END_DATE_ERR_MSG" js="on" ><![CDATA[Invalid date value: Unpublish date]]></msg>
+ <msg name="DOC_UPDATE_ERR_MSG_1" js="on" ><![CDATA[An error occurred while updating data]]></msg>
+ <msg name="DOC_DELETE_ERR_MSG_1" js="on" ><![CDATA[An error occurred while deleting data]]></msg>
+ <msg name="DOC_COPY_ERR_MSG_1" js="on" ><![CDATA[An error occurred while copying data]]></msg>
+ <msg name="SELECT" js="on" ><![CDATA[Select]]></msg>
+ <msg name="SEND_MAIL_TITLE" js="on" ><![CDATA[Compose message]]></msg>
+ <msg name="EXP_CHANGE_LOOKS_OF_UNREAD" js="on" ><![CDATA[Unread documents are shown in bold prints on the document list. You can change the font settings and show them in regular characters or in different colors. Please use HTML color code to change specify colors (Ex. 'Red', 'Green', '#8E2424' etc.)]]></msg>
+ <msg name="SET_BOLD" js="on" ><![CDATA[Bold]]></msg>
+ <msg name="COLOR_CODE_OF_UNREAD" js="on" ><![CDATA[Color code]]></msg>
+ <msg name="TITLE_CHANGE_LOOKS_OF_UNREAD" js="on" ><![CDATA[Color Code of Unread Documents]]></msg>
+ <msg name="CHANGE_LOOKS_OF_UNREAD" js="on" ><![CDATA[Modify the display setting for Unread Documents]]></msg>
+ <msg name="SCREEN_SETTING" js="on" ><![CDATA[Screen Setting]]></msg>
+ <msg name="USER_DEFAULT_PRINT_LAYOUT" js="on" ><![CDATA[*Default Layout]]></msg>
+ <msg name="PREVIEW" js="on" ><![CDATA[Preview]]></msg>
+ <msg name="NUM_ROW_DISPLAY" js="on" ><![CDATA[Rows per page]]></msg>
+  <msg name="ALL_VIEW_ACCOUNT"><![CDATA[All company]]></msg>
+  <msg name="TODAY_VIEW_ACCOUNT"><![CDATA[Today's company]]></msg>
+  <msg name="YESTERDAY_VIEW_ACCOUNT"><![CDATA[Yesterday's company]]></msg>
+  <msg name="THIS_WEEK_VIEW_ACCOUNT"><![CDATA[This week's company]]></msg>
+  <msg name="LAST_WEEK_VIEW_ACCOUNT"><![CDATA[Last week's company]]></msg>
+  <msg name="THIS_MONTH_VIEW_ACCOUNT"><![CDATA[This month's company]]></msg>
+  <msg name="LAST_MONTH_VIEW_ACCOUNT"><![CDATA[Last month's company]]></msg>
+  <msg name="RECENTLY_VIEW_ACCOUNT"><![CDATA[Recently viewed company]]></msg>
+  <msg name="MY_VIEW_ACCOUNT"><![CDATA[My company]]></msg>
+  <msg name="ALL_VIEW_CONTACT"><![CDATA[All client]]></msg>
+  <msg name="TODAY_VIEW_CONTACT"><![CDATA[Today's client]]></msg>
+  <msg name="YESTERDAY_VIEW_CONTACT"><![CDATA[Yesterday's client]]></msg>
+  <msg name="THIS_WEEK_VIEW_CONTACT"><![CDATA[This week's client]]></msg>
+  <msg name="LAST_WEEK_VIEW_CONTACT"><![CDATA[Last week's client]]></msg>
+  <msg name="THIS_MONTH_VIEW_CONTACT"><![CDATA[This month's client]]></msg>
+  <msg name="LAST_MONTH_VIEW_CONTACT"><![CDATA[Last month's client]]></msg>
+  <msg name="RECENTLY_VIEW_CONTACT"><![CDATA[Recently viewed client]]></msg>
+  <msg name="MY_VIEW_CONTACT"><![CDATA[My client]]></msg>
+  <msg name="NAMECARD_VIEW_CONTACT"><![CDATA[Name cards]]></msg>
+  <msg name="ALL_VIEW_PRODUCT"><![CDATA[All Cases/Opportunities]]></msg>
+  <msg name="TODAY_VIEW_PRODUCT"><![CDATA[Today's Case/Opportunity]]></msg>
+  <msg name="YESTERDAY_VIEW_PRODUCT"><![CDATA[Yesterday's Case/Opportunity]]></msg>
+  <msg name="THIS_WEEK_VIEW_PRODUCT"><![CDATA[This week's Case/Opportunity]]></msg>
+  <msg name="LAST_WEEK_VIEW_PRODUCT"><![CDATA[Las week's Case/Opportunity]]></msg>
+  <msg name="THIS_MONTH_VIEW_PRODUCT"><![CDATA[This month's Case/Opportunity]]></msg>
+  <msg name="LAST_MONTH_VIEW_PRODUCT"><![CDATA[Last month's Case/Opportunity]]></msg>
+  <msg name="RECENTLY_VIEW_PRODUCT"><![CDATA[Recently viewed Case/Opportunity]]></msg>
+  <msg name="MY_VIEW_PRODUCT"><![CDATA[My Case/Opportunity]]></msg>
+  <msg name="ALL_VIEW_EVENT"><![CDATA[All Actions]]></msg>
+  <msg name="TODAY_VIEW_EVENT"><![CDATA[Today's Action]]></msg>
+  <msg name="YESTERDAY_VIEW_EVENT"><![CDATA[Yesterday's Action]]></msg>
+  <msg name="THIS_WEEK_VIEW_EVENT"><![CDATA[This week's Action]]></msg>
+  <msg name="LAST_WEEK_VIEW_EVENT"><![CDATA[Last week's Action]]></msg>
+  <msg name="THIS_MONTH_VIEW_EVENT"><![CDATA[This month's Action]]></msg>
+  <msg name="LAST_MONTH_VIEW_EVENT"><![CDATA[Last month's Action]]></msg>
+  <msg name="RECENTLY_VIEW_EVENT"><![CDATA[Recently viewed Action]]></msg>
+  <msg name="MY_VIEW_EVENT"><![CDATA[My Action]]></msg>
+  <msg name="VIEW_FAVORITE"><![CDATA[Favorites]]></msg>
+  <msg name="VIEW_FOLLOW"><![CDATA[Following]]></msg>
+  <msg name="CREATE"><![CDATA[Create]]></msg>
+  <msg name="UPDATE"><![CDATA[Update]]></msg>
+  <msg name="DELETE"><![CDATA[Delete]]></msg>
+  <msg name="REMIND"><![CDATA[Remind]]></msg>
+  <msg name="LANGUAGE_DEFAULT" js="on"><![CDATA[*Deault Language]]></msg>
+  <msg name="LANGUAGE_JAPANESE" js="on"><![CDATA[Japanese]]></msg>
+  <msg name="LANGUAGE_ENGLISH" js="on"><![CDATA[English]]></msg>
+  <msg name="LANGUAGE_CHINESE" js="on"><![CDATA[Simplified Chinese]]></msg>
+  <msg name="LANGUAGE_CHINESE_TRADITIONAL" js="on"><![CDATA[Traditional Chinese]]></msg>
+  <msg name="LANGUAGE_KOREAN" js="on"><![CDATA[Korean]]></msg>
+  <msg name="LANGUAGE_PORTUGUESE" js="on"><![CDATA[Portuguese]]></msg>
+  <msg name="LANGUAGE_FRENCH" js="on"><![CDATA[French]]></msg>
+  <msg name="LANGUAGE_GERMAN" js="on"><![CDATA[German]]></msg>
+  <msg name="LANGUAGE_SPANISH" js="on"><![CDATA[Spanish]]></msg>
+  <msg name="LANGUAGE_HINDI" js="on"><![CDATA[Hindi]]></msg>
+  <msg name="LANGUAGE_SWEDISH" js="on"><![CDATA[Swedish]]></msg>
+  <msg name="LANGUAGE_FINNISH" js="on"><![CDATA[Finnish]]></msg>
+  <msg name="LANGUAGE_ITALIAN" js="on"><![CDATA[Italian]]></msg>
+  <msg name="LANGUAGE_INDONESIAN" js="on"><![CDATA[Indonesian]]></msg>
+  <msg name="LANGUAGE_RUSSIAN" js="on"><![CDATA[Russian]]></msg>
+  <msg name="LANGUAGE_THAI" js="on"><![CDATA[Thai]]></msg>
+  <msg name="INTRODUCING_EXP1" ><![CDATA[About Sateraito Office - Cloud CRM Gadgets]]></msg>
+  <msg name="INTRODUCING_EXP2" ><![CDATA[Sateraito Office - Cloud CRM manuals :]]></msg>
+  <msg name="INTRODUCING_EXP_HERE" ><![CDATA[HERE]]></msg>
+  <msg name="INTRODUCING_EXP3" ><![CDATA[Cloud CRM Screen Link Settings Guide for Google Site administrators]]></msg>
+  <msg name="INTRODUCING_EXP4" ><![CDATA[By default, [Read more] -> [Sateraito Office - Cloud CRM] will lead to the Gadget introduction page (Current page), but you can set a different destination page, for example Cloud CRM system page, etc.]]></msg>
+  <msg name="INTRODUCING_EXP5" ><![CDATA[For more advanced settings, refer to <a style="font-weight:bold;" href="https://sites.google.com/a/sateraito.jp/sateraito-dounyuu/Home/dokyumento-guan-li#TOC-Google-4" target="_blank">Document Management Manual [Read more -> Sateraito Office - Document Management] Link Destination Modification</a>.]]></msg>
+  <msg name="INTRODUCING_CRM_GADGET" ><![CDATA[User CRM Gadget]]></msg>
+  <msg name="INTRODUCING_EXP6" ><![CDATA[User CRM Gadget allows you to create, edit, delete, and view Company Master, Client Master, Case/Opportunity Master, and Action Master. Please add gadget to Google Site Screen.]]></msg>
+  <msg name="INTRODUCING_EXP6_IMAGE" ><![CDATA[<img src="/images/sateraito_crm_user_ja.png" />]]></msg>
+  <msg name="INTRODUCING_GADGET_URL" ><![CDATA[Gadget URL]]></msg>
+  <msg name="INTRODUCING_GOOGLE_DRIVE_EXP_1" ><![CDATA[*You will need the setting below to synchronize with Google Drive(2014/11/15)]]></msg>
+  <msg name="INTRODUCING_GOOGLE_DRIVE_EXP_2" ><![CDATA[Setting on Google Apps:]]></msg>
+  <msg name="INTRODUCING_EXP7" ><![CDATA[To add gadget to Google Site Page, Read:]]></msg>
+  <msg name="INTRODUCING_CRM_ADMIN_GADGET" ><![CDATA[Administrator Gadget]]></msg>
+  <msg name="INTRODUCING_EXP8" ><![CDATA[Administrator gadget allows you to search and export posts and edit templates. Admin console will also be available in the gadget. Add gadget to Google Site screen and give Access Permission to the page and site itself.(Gadget is inaccessible for regular users)]]></msg>
+  <msg name="INTRODUCING_EXP8_IMAGE" ><![CDATA[<img src="/images/admin_console_ja.png" />]]></msg>
+  <msg name="INTRODUCING_EXP9" ><![CDATA[Install Sateraito Office - CRM Action Extension]]></msg>
+  <msg name="INTRODUCING_EXP10" ><![CDATA[Install form the button below! Install will start through Chrome webstore.]]></msg>
+  <msg name="INTRODUCING_CHORME" ><![CDATA[For Chrome users]]></msg>
+  <msg name="INTRODUCING_CHORME_INSTALL" ><![CDATA[Install]]></msg>
+  <msg name="INTRODUCING_CHORME_IMAGE" ><![CDATA[<img  src="/images/hcInst_ja.png" style="border:none;"/>]]></msg>
+  <msg name="INTRODUCING_CHORME_EXP1" ><![CDATA[*CLick the install button above and [ADD] to install.]]></msg>
+  <msg name="INTRODUCING_FIREFOX" ><![CDATA[For FireFox Users]]></msg>
+  <msg name="INTRODUCING_FIREFOX_INSTALL" ><![CDATA[Install]]></msg>
+  <msg name="INTRODUCING_FIREFOX_EXP1" ><![CDATA[(Coming soon)]]></msg>
+  <msg name="START_OAUTH2" ><![CDATA[Activate>>]]></msg>
+  <msg name="EXP_START_OAUTH2" ><![CDATA[*The above button is shown only on Admin screen. To start using this system, the administrator must first click the button above to activate ! <br> Please click again when the admin user has changed his/her mail address!]]></msg>
+  <msg name="EXP_START_OAUTH3" ><![CDATA[* The application is already started in your domain. The current administrator email address is:]]></msg>
+  <msg name="EXP_START_OAUTH_WARNING" ><![CDATA[*The above button is shown only on Admin screen. To start using this system, the administrator must first click the button above to activate ! <br> Please click again when the admin user has changed his/her mail address!]]></msg>
+  <msg name="VC_OLD_EMAIL_NOT_COMPATIBLE_DOMAIN">*Invalid format or wrong domain in "Current Mail Address".</msg>
+  <msg name="VC_NEW_EMAIL_NOT_COMPATIBLE_DOMAIN">*Invalid format or wrong domain in "New Mail Address".</msg>
+  <msg name="VC_OLD_EMAIL_EMPTY">*"Current Mail Address" is required.</msg>
+  <msg name="VC_NEW_EMAIL_EMPTY">*"New Mail Address" is required.</msg>
+  <msg name="BBS_TEMPLATE">BBS Template</msg>
+  <msg name="DOC_FILE_ATTACHMENT">Attached file</msg>
+  <msg name="LOADING">Loading...</msg>
+  <msg name="CLICK_HERE_TO_SIGN_IN" js="on">Sign In</msg>
+  <msg name="FOR_OTHER_DOMAIN_USER" js="on">Other Domain User</msg>
+  <msg name="UNABLE_TO_SIGN_IN_ASK_ADMIN" js="on">*Currently unavailable. Please contact the administrator.</msg>
+  <msg name="ERROR">Error</msg>
+  <msg name="REQUIREMENT" js="on">Feedbacks</msg>
+  <msg name="TITLE">Title</msg>
+  <msg name="ERROR_WHILE_LOADING">An error occurred while loading</msg>
+  <msg name="SUMMARY">Content</msg>
+  <msg name="GADGET_HEIGHT">Gadget Height(Pixel)</msg>
+  <msg name="RELOAD_GADGET" js="on">Reload</msg>
+  <msg name="ONLY_WORKFLOW_ADMIN_CAN_OPEN_THIS_GADGET" js="on">*Only Cloud CRM Administrators could use this gadget.</msg>
+  <msg name="PLEASE_CONTACT_YOUR_ADMINISTRATOR" js="on">Contact the system administrators for more.</msg>
+  <msg name="WORKFLOW_ADMIN_CONSOLE" js="on">Cloud CRM - Admin Console</msg>
+  <msg name="SATERAITO_OFFICE_BBS_FOR_GOOGLE_APPS" js="on">Sateraito Office - Cloud CRM  for Google Apps</msg>
+  <msg name="SATERAITO_OFFICE_BBS" js="on">Sateraito Office - Cloud CRM</msg>
+  <msg name="FAILED_TO_LOAD_SETTINGS" js="on">An error occurred while loading settings</msg>
+  <msg name="TO" js="on">To</msg>
+  <msg name="EXPIRE_GADGET">The page expired. Please reload.</msg>
+  <msg name="THIS_APPRICATION_IS_STOPPED_FOR_YOUR_DOMAIN" js="on">Application currently unavailable. Please contact the administrator for more. (Error No.: 101)</msg>
+  <msg name="APPLICATION_ID">Application ID</msg>
+  <msg name="OPEN_DOC_IN_NEW_WINDOW">Show post in pop-up window</msg>
+  <msg name="SHOW_PRIORITY_COL">Show "Priority" column</msg>
+  <msg name="SHOW_DEPARTMENT_COL">Show "Department" column</msg>
+  <msg name="SHOW_DOCUMENT_TYPE_COL">Show "Type" column</msg>
+  <msg name="SHOW_READER_INFO_COL">Show "View count" column</msg>
+  <msg name="ALERT_GADGET_TIMEOUT">Session timing out in about 10 minutes. Please save the document you are working on and reload browser.</msg>
+  <msg name="ERROR_TIMEOUT">Session timed out. Please reload browser.</msg>
+  <msg name="PRIORITY_COL_WIDTH">"Priority" column width (px)</msg>
+  <msg name="DEPARTMENT_COL_WIDTH">"Department" column width (px)</msg>
+  <msg name="DOCUMENT_TYPE_COL_WIDTH">"Type" column width (px)</msg>
+  <msg name="READER_INFO_COL_WIDTH">"View count" column width (px)</msg>
+  <msg name="TITLE_HIDDEN">Show Gadget Title</msg>
+  <msg name="TITLE_COL_WIDTH">"Title" column width (px)</msg>
+  <msg name="AUTHOR_COL_WIDTH">"Author" column width (px)</msg>
+  <msg name="AUTO_MAIL_CAUTION"><![CDATA[
+<Caution>
+This is an auto-generated message sent from system address.
+Please do not reply to this message.
+]]></msg>
+  <msg name="DOWNLOAD_CSV_READY_BODY_1" js="on" ><![CDATA[
+All user CSV file is ready for download.
+You can start downloading from the URL below.。
+]]></msg>
+  <msg name="DOWNLOAD_CSV_READY_BODY_2" js="on" ><![CDATA[This URL will expire in 24 hours.
+]]></msg>
+  <msg name="DOWNLOAD_CSV_READY_SUBJECT" js="on" ><![CDATA[CSV file is ready for download.]]></msg>
+
+
+  <!--NOTIFICATION Company -->
+
+  <msg name="PUBLISH_NOTIFICATION_COMPANY_SUBJECT"><![CDATA[[COmpany Master] Notification from CRM System]]></msg>
+  <msg name="PUBLISH_NOTIFICATION_COMPANY_BODY_1" ><![CDATA[Dear %1,
+
+The company data below has been %2 to CRM system. Please confirm below.
+
+-------------------------------------------------------------------
+<>Content Overview<>
+-------------------------------------------------------------------
+Company: %3
+Author: %4
+Created on: %5
+
+-------------------------------------------------------------------
+Click here to open company details in new window.
+
+]]></msg>
+  <msg name="PUBLISH_NOTIFICATION_BODY_2"><![CDATA[*You may verify directly if application details are shown below.
+]]></msg>
+  <msg name="PUBLISH_NOTIFICATION_BODY_3" ><![CDATA[
+<Caution>
+This is an auto-generated message sent from system address.
+Please do not reply to this message.
+]]></msg>
+
+  <!--NOTIFICATION Contact -->
+
+  <msg name="PUBLISH_NOTIFICATION_CONTACT_SUBJECT"><![CDATA[[Client Master] Notification from CRM system]]></msg>
+  <msg name="PUBLISH_NOTIFICATION_CONTACT_BODY_1" ><![CDATA[Dear %1,
+
+The client data below has been %2 to CRM system. Please confirm below.
+
+-------------------------------------------------------------------
+<>Content Overview<>
+-------------------------------------------------------------------
+Client: %3
+Author: %4
+Created on: %5
+
+-------------------------------------------------------------------
+Click here to open client details in new window.
+
+]]></msg>
+
+  <!--NOTIFICATION Project -->
+
+  <msg name="PUBLISH_NOTIFICATION_PRODUCT_SUBJECT"><![CDATA[[Case/Opportunity Master]Notification from CRM system]]></msg>
+  <msg name="PUBLISH_NOTIFICATION_PRODUCT_BODY_1" ><![CDATA[Dear %1,
+
+The case/opportunity data below has been %2 to CRM system. Please confirm below.
+
+-------------------------------------------------------------------
+<>Content Overview<>
+-------------------------------------------------------------------
+Case/Opportunity %3
+Author: %4
+Created on: %5
+
+-------------------------------------------------------------------
+Click here to open case/opportunity details in new window.
+
+]]></msg>
+
+  <!--NOTIFICATION Activity -->
+
+  <msg name="PUBLISH_NOTIFICATION_ACTION_SUBJECT"><![CDATA[[Action Master] Notification from CRM master]]></msg>
+  <msg name="PUBLISH_NOTIFICATION_ACTION_BODY_1" ><![CDATA[Dear %1,
+
+The action data below has been %2 to CRM system. Please confirm below.
+
+-------------------------------------------------------------------
+<>Content Overview<>
+-------------------------------------------------------------------
+Action: %3
+Author: %4
+Created by: %5
+
+-------------------------------------------------------------------
+Click here to open action details in new window.
+
+]]></msg>
+
+  <msg name="COMMENT_MAIL_SUBJECT"><![CDATA[[%1]Comment Notification: %2]]></msg>
+	<msg name="COMMENT_NOTIFICATION_BODY_1"><![CDATA[Dear %1,
+
+The comment below has been posted to CRM system. Please confirm below.
+
+
+-------------------------------------------------------------------
+<>Content Overview<>
+-------------------------------------------------------------------
+Posted on: %2
+Commenter: %3
+Content: %4
+
+-------------------------------------------------------------------
+Click here to open the post in new window.
+
+]]></msg>
+	<msg name="COMMENT_NOTIFICATION_BODY_2"><![CDATA[*You may edit directly if application details are shown below.
+]]></msg>
+	<msg name="COMMENT_NOTIFICATION_BODY_3" ><![CDATA[
+<Caution>
+This is an auto-generated message sent from system address.
+Please do not reply to this message.
+]]></msg>
+  <msg name="AUTO_MAIL_FOOTER"><![CDATA[
+
+===========================================
+Sateraito Office - CLoud CRM for Google Apps
+   http://www.sateraito.jp/
+===========================================
+
+]]></msg>
+
+<msg name="OPEN_HTML_BUILDER_MSG" js="on" ><![CDATA[Use a template created by Form layout Builder to edit in Form Layout Builder.\n Editing HTML directly with Form Layout Builder may fracture the form.\n We also advise you to save the content of your current approval route for backup.]]></msg>
+	<msg name="DOC_TEMPLATE_HTML_BUILDER_BTN" js="on" ><![CDATA[Edit with Form Layout Builder]]></msg>
+	<msg name="HTML_BUILDER" js="on"><![CDATA[Sateraito Office - Form Layout Builder]]></msg>
+	<msg name="EXP_TEMPLATE_BODY_FOR_HTML_BUILDER" js="on" ><![CDATA[*Direct modification of HTML source code will not be reflected to Form Layout Builder.]]></msg>
+
+<!-- add 2016/02/19 -->
+    <msg name="CONFIRM_DELETE" js="on" ><![CDATA[Deleting entry form. Are you sure?]]></msg>
+    <msg name="LINK_COPY_EXP" js="on" ><![CDATA[Copied link. Paste (Ctrl+V) to message body.]]></msg>
+    <msg name="LINK_TO_POPUP_PUBLIC_ANYONE" js="on" ><![CDATA[Obtain URL public on line]]></msg>
+    <msg name="PUBLIC_DOC_ANYONE" js="on" ><![CDATA[URL public on line]]></msg>
+    <msg name="CHK_PUBLIC_DOC_ANYONE" js="on" ><![CDATA[Open to public (Anybody on the Internet can access)]]></msg>
+    <msg name="GET_ID_TEMPLATE" js="on" ><![CDATA[Internal template ID]]></msg>
+    <msg name="TEMPLATE_LAYOUT_OPT" js="on" ><![CDATA[Distinguish Layout]]></msg>
+    <msg name="TEMPLATE_SATETRAITO" js="on" ><![CDATA[Display in Default Layout]]></msg>
+    <msg name="TEMPLATE_HTML" js="on" ><![CDATA[Display in Free Layout]]></msg>
+    <msg name="DOC_TEMPLATE_NOT_EXIST" js="on" ><![CDATA[Impossible to create new document: This template is deleted, or does not exist.]]></msg>
+    <msg name="EXP_IMPORT_COM_BULKUPDATE_CSV" js="on" ><![CDATA[Company M Sample –>]]></msg>
+    <msg name="EXP_IMPORT_CUS_BULKUPDATE_CSV" js="on" ><![CDATA[Client M Sample –>]]></msg>
+    <msg name="EXP_IMPORT_PRO_BULKUPDATE_CSV" js="on" ><![CDATA[Case/Opportunity M Sample –>]]></msg>
+    <msg name="EXP_IMPORT_ACT_BULKUPDATE_CSV" js="on" ><![CDATA[Action M Sample–>]]></msg>
+    <msg name="NOTIFICATION" js="on" ><![CDATA[Notification]]></msg>
+    <msg name="CRM_NOTIFICATION" js="on" ><![CDATA[Action notification]]></msg>
+    <msg name="CRM_NOTIFICATION_EXP" js="on" ><![CDATA[*Emved  View Data Count by specifying tag surrounding View name with [$$ and $$] in Notification content.]]></msg>
+    <msg name="ADMIN_SETTING_NOTIFICATION_CRM" js="on" ><![CDATA[Action Notification Setting]]></msg>
+    <msg name="ADMIN_SETTING_NOTIFICATION_CRM_EXP" js="on" ><![CDATA[Click the button above to fill in notification content.]]></msg>
+    <msg name="SETTING_NOTIFICATION_CRM_BTN" js="on" ><![CDATA[Register notification content]]></msg>
+    <msg name="TEMPLATE_NOTIFICATION" js="on" ><![CDATA[Notification content]]></msg>
+    <msg name="SETTING_USE_NOTIFICATION" js="on" ><![CDATA[Action Notification Function Setting]]></msg>
+    <msg name="SETTING_USE_NOTIFICATION_USE" js="on" ><![CDATA[Activate Action Notification Function]]></msg>
+    <msg name="SETTING_USE_NOTIFICATION_EXP" js="on" ><![CDATA[Turn this setting ON to activate Action Notification Function.]]></msg>
+    <msg name="TOOLTIP_NOTIFICATION" js="on" ><![CDATA[Action notification]]></msg>
+    <msg name="ACCESS_IP_ADDRESS_TO_CREATE_NEW" js="on" ><![CDATA[IP address control]]></msg>
+    <msg name="ACCESS_IP_ADDRESS_EXP" js="on" ><![CDATA[To limit registration to public entry form, specify the IP address of proxy servers from which to allow registration. For multiple registration, list by separating with commas. Ex.) 127.0.0.1,127.0.0.1/32]]></msg>
+    <msg name="ACCESS_IP_ADDRESS_ERROR" js="on" ><![CDATA[You have no access rights. Please contact administrator.]]></msg>
+    <msg name="TEMPLATE_GADGET_CONTENT" js="on" ><![CDATA[Content(Internal)]]></msg>
+    <msg name="TEMPLATE_PUBLIC_CONTENT" js="on" ><![CDATA[Content(Public)]]></msg>
+    <msg name="DEFAULT_MAIL_HEADER" js="on" ><![CDATA[[Action Master] Notification from CRM system]]></msg>
+    <msg name="DEFAULT_MAIL_BODY" js="on" ><![CDATA[Dear [$$ send_to $$],
+
+ The below action data has been [$$ action $$] processed to CRM system. Please verify content.
+
+ -------------------------------------------------------------------
+ <>Content Overview<>
+ -------------------------------------------------------------------
+ Action Name: [$$ action_name $$]
+ Author: [$$ create_by_name $$]
+ Created on: [$$ created_date $$]
+
+ -------------------------------------------------------------------
+ Action data URL attached below. Please click to open in new window
+
+ [$$ link_to_doc_detail $$]
+ *You may verify directly if data content is shown below.
+
+ == This is auto-generated message from CRM System. Please do not reply to this message. ==
+ ]]></msg>
+    <msg name="DEFAULT_TAB_MAIL_TITLE" js="on" ><![CDATA[Default]]></msg>
+    <msg name="TEMPLATE_MAIL" js="on" ><![CDATA[Mail template list]]></msg>
+    <msg name="TEMPLATE_MAIL_EXP" js="on" ><![CDATA[*If notification mail content varies according to items, please add mail template here.]]></msg>
+    <msg name="ADD_SUPPORT" js="on" ><![CDATA[Edit]]></msg>
+    <msg name="MAIL_SENDER" js="on" ><![CDATA[From]]></msg>
+    <msg name="SECTION_SUPPORT" js="on" ><![CDATA[Inquiry Log]]></msg>
+    <msg name="ADD_SUPPORT_SUCCESS" js="on" ><![CDATA[Communication has been edited]]></msg>
+    <msg name="ADD_SUPPORT_ERROR" js="on" ><![CDATA[Communication edit has failed.]]></msg>
+    <msg name="SUPPORT_SEND_MAIL_SUCCESS" js="on" ><![CDATA[Communication has been sent.]]></msg>
+    <msg name="SUPPORT_SEND_MAIL_ERROR" js="on" ><![CDATA[Failed to send communication.]]></msg>
+    <msg name="SUPPORT_SEND_MAIL_OK" js="on" ><![CDATA[Sending communication?]]></msg>
+    <msg name="GO_SEND_MAIL" js="on" ><![CDATA[Send]]></msg>
+    <msg name="TITLE_SUPPORT_SEND_MAIL" js="on" ><![CDATA[Add communication]]></msg>
+    <msg name="BTN_SUPPORT_SEND_MAIL" js="on" ><![CDATA[Add communication]]></msg>
+    <msg name="SETTING_SUPPORT_SEND_MAIL" js="on" ><![CDATA[Set Communication template]]></msg>
+    <msg name="SETTING_SUPPORT_SEND_MAIL_EXP" js="on" ><![CDATA[If you wish to keep a log for inquiries from external users from public entry form, you can set an inquiry template here.]]></msg>
+    <msg name="DATE_SEND_MAIL" js="on" ><![CDATA[Reception Date]]></msg>
+    <msg name="ORDER_FIELD" js="on" ><![CDATA[Sorting items]]></msg>
+    <msg name="VIEW_DISPLAY_ORDER" js="on" ><![CDATA[Sorting setting]]></msg>
+    <msg name="COMMENT_EXP" js="on" ><![CDATA[Please enter comment.]]></msg>
+    <msg name="SETTING_USE_TAB_THREAD" js="on" ><![CDATA[Notification function]]></msg>
+    <msg name="SETTING_USE_TAB_THREAD_DES" js="on" ><![CDATA[Turn ON to activate Notification function.]]></msg>
+    <msg name="CHAT_ATTACHMENT" js="on" ><![CDATA[Attachment]]></msg>
+    <msg name="VALID_COMMENT" js="on" ><![CDATA[Invalid comment entry.]]></msg>
+    <msg name="VALID_THREAD_TO" js="on" ><![CDATA[Invalid viewer entry.]]></msg>
+    <msg name="VALID_THREAD_HEADER" js="on" ><![CDATA[Invalid title entry.]]></msg>
+    <msg name="VALID_THREAD_CONTEND" js="on" ><![CDATA[Invalid content entry.]]></msg>
+    <msg name="ADDING_THREAD_OK" js="on" ><![CDATA[Posting this content to Notifications. Are you sure?]]></msg>
+    <msg name="BTN_CREATE_THREAD" js="on" ><![CDATA[Post]]></msg>
+    <msg name="TITLE_PANEL_CENTER" js="on" ><![CDATA[Post list]]></msg>
+    <msg name="TITLE_PANEL_SOUTH" js="on" ><![CDATA[New Post]]></msg>
+    <msg name="CHAT_TO" js="on" ><![CDATA[Viewer]]></msg>
+    <msg name="CHAT_HEADER" js="on" ><![CDATA[Title]]></msg>
+    <msg name="CHAT_CONTEND" js="on" ><![CDATA[Content]]></msg>
+    <msg name="PANEL_CHAT" js="on" ><![CDATA[Notification]]></msg>
+    <msg name="ERROR_OCCURRED_FAILED_TO_CHAT" js="on" ><![CDATA[An error occurred when posting notification.]]></msg>
+    <msg name="BTN_CLEAR_THREAD" js="on" ><![CDATA[Clear]]></msg>
+    <msg name="MSG_LAST_MODIFIED" js="on" ><![CDATA[Final Update Date]]></msg>
+    <msg name="MSG_LATEST_NOTIF" js="on" ><![CDATA[Update]]></msg>
+    <msg name="MSG_DELETE_THREAD" js="on" ><![CDATA[Deleting this post will delete all comments shown below. Are you sure?]]></msg>
+    <msg name="BTN_REFRESH" js="on" ><![CDATA[Latest Update]]></msg>
+    <msg name="CATALOG_SUPPORT" js="on" ><![CDATA[Inquiry category]]></msg>
+    <msg name="TEMPLATE_SUPPORT_BODY" js="on" ><![CDATA[Template content]]></msg>
+    <msg name="TEMPLATE_SUPPORT" js="on" ><![CDATA[Inquiry template]]></msg>
+    <msg name="MSG_NOTICE_DELETE" js="on" ><![CDATA[*Comment content has been deleted.]]></msg>
+    <msg name="MSG_DELETE_COMMENT" js="on" ><![CDATA[Deleting this comment. Are you sure?]]></msg>
+    <msg name="ADDING_NOTIFY_MAIL_EXP" js="on" ><![CDATA[Please enter notification template name.]]></msg>
+    <msg name="ADDING_CONTACT_EXP" js="on" ><![CDATA[Please enter inquiry log editing template name.]]></msg>
+    <msg name="USING_VIEW_FAST" js="on" ><![CDATA[Show]]></msg>
+    <msg name="NOT_USING_VIEW_FAST" js="on" ><![CDATA[Hide]]></msg>
+    <msg name="EXP_VIEW_FAST" js="on" ><![CDATA[Select "Show" to enable easy display/edit in pop-up by the HTML content specified below by View and Form.]]></msg>
+    <msg name="HEADER_COMPANY_VIEW_FAST" js="on" ><![CDATA[Company Details]]></msg>
+    <msg name="HEADER_CONTACT_VIEW_FAST" js="on" ><![CDATA[Client Details]]></msg>
+    <msg name="HEADER_PROJECT_VIEW_FAST" js="on" ><![CDATA[Case/Opportunity Details]]></msg>
+    <msg name="HEADER_ACTION_VIEW_FAST" js="on" ><![CDATA[Details]]></msg>
+    <msg name="DESCRIPTION_DETAIL_PUBLIC" js="on" ><![CDATA[By this setting, you will be able to select whether to publish created data to external users or not.]]></msg>
+    <msg name="SHOW_DETAIL_PUBLIC" js="on" ><![CDATA[Publish created data to external users]]></msg>
+    <msg name="NOT_SHOW_DETAIL_PUBLIC" js="on" ><![CDATA[Hide created data from external users]]></msg>
+    <msg name="GO_TO_VIEW_FAST" js="on" ><![CDATA[Simple Display]]></msg>
+    <msg name="TEMPLATE_VIEW_FAST" js="on" ><![CDATA[Simple Display HTML content]]></msg>
+    <msg name="BTN_UPDATE_DETAIL" js="on" ><![CDATA[Direct Update]]></msg>
+    <msg name="BTN_EDIT_DETAIL" js="on" ><![CDATA[Direct Edit]]></msg>
+    <msg name="ADMIN_SETTING_ADVANCED_SEARCH" js="on" ><![CDATA[Advanced Search Function Setting]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH_EXP" js="on" ><![CDATA[Specify the user/Google group mail address to allow advances search to. Separate by spaces for multiple entry. All user will be able to use advanced search when left blank.]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH" js="on" ><![CDATA[Advances Search Usage Setting]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH_USE" js="on" ><![CDATA[Use]]></msg>
+    <msg name="FIELD_ORDER" js="on" ><![CDATA[Item Order]]></msg>
+    <msg name="BTN_SHOW_FIELD_HISTORY" js="on" ><![CDATA[Show Latest Log]]></msg>
+    <msg name="BTN_HIDE_FIELD_HISTORY" js="on" ><![CDATA[Hide Latest Log]]></msg>
+    <msg name="HISTORY_FIELD_EXP" js="on" ><![CDATA[Latest Log]]></msg>
+    <msg name="BTN_COPY_LINK" js="on" ><![CDATA[Copy document link]]></msg>
+    <msg name="DOC_TEMPLATE_MAIL_LINK" js="on" ><![CDATA[Copied link. Paste (Ctrl+V) to message body.]]></msg>
+    <msg name="BTN_COMMON_BUTTON" js="on" ><![CDATA[Edit/Delete/Copy]]></msg>
+    <msg name="BTN_COMMON_BUTTON_CAL" js="on" ><![CDATA[Menu]]></msg>
+
+    <!-- 2016/03/14 add -->
+    <msg name="ADMIN_SETTING_USE_TAB_LOG" js="on" ><![CDATA[Operation Log Setting]]></msg>
+    <msg name="SETTING_USE_TAB_LOG" js="on" ><![CDATA[Operation Log]]></msg>
+    <msg name="SETTING_USE_TAB_LOG_DES" js="on" ><![CDATA[Turn ON to allow system administrator manage all operations (view, add new, update, delete, download the attachment, import, export)  of users on system.]]></msg>
+    <msg name="LOG_ACTIVITY" js="on" ><![CDATA[Operation Log]]></msg>
+    <msg name="LOG_COMPONENT_ID" js="on" ><![CDATA[Internal ID]]></msg>
+    <msg name="LOG_COMPONENT_NAME" js="on" ><![CDATA[Title]]></msg>
+    <msg name="LOG_TEMPLATE_TYPE" js="on" ><![CDATA[Master type]]></msg>
+    <msg name="LOG_TEMPLATE_NAME" js="on" ><![CDATA[Template]]></msg>
+    <msg name="LOG_USER_EMAIL" js="on" ><![CDATA[User]]></msg>
+    <msg name="LOG_ACTIVITY_TYPE" js="on" ><![CDATA[Operation]]></msg>
+    <msg name="LOG_ACTIVITY_DATE" js="on" ><![CDATA[Date]]></msg>
+    <msg name="ALL_ACTIVITY" js="on" ><![CDATA[All]]></msg>
+    <msg name="ACTIVITY_NEW" js="on" ><![CDATA[Add New]]></msg>
+    <msg name="ACTIVITY_UPDATE" js="on" ><![CDATA[Update]]></msg>
+    <msg name="ACTIVITY_DELETE" js="on" ><![CDATA[Delete]]></msg>
+    <msg name="ACTIVITY_TRASH" js="on" ><![CDATA[Trash]]></msg>
+    <msg name="ACTIVITY_OPEN" js="on" ><![CDATA[View]]></msg>
+    <msg name="ACTIVITY_DOWNLOAD_CSV" js="on" ><![CDATA[Export]]></msg>
+    <msg name="ACTIVITY_IMPORT_CSV" js="on" ><![CDATA[Import]]></msg>
+    <msg name="CREATE_BY_NAME" js="on" ><![CDATA[Creator]]></msg>
+    <msg name="CREATE_BY_NAME_EXP" js="on" ><![CDATA[Creator Name]]></msg>
+    <msg name="COPY_VIEW" js="on" ><![CDATA[Copy and Create]]></msg>
+    <msg name="CRM_SETTING_RECYCLE_BIN" js="on" ><![CDATA[Trash Setting]]></msg>
+    <msg name="SETTING_RECYCLE_BIN" js="on" ><![CDATA[Trash Function]]></msg>
+    <msg name="SETTING_RECYCLE_BIN_USE" js="on" ><![CDATA[Use]]></msg>
+    <msg name="SETTING_RECYCLE_BIN_DES" js="on" ><![CDATA[If turn ON this function, when user delete data that is moved to trash and then user can not browse but system administrators can view and restore it.]]></msg>
+    <msg name="STATUS_GRID_ADMIN" js="on" ><![CDATA[Status]]></msg>
+    <msg name="STATUS_DELETED" js="on" ><![CDATA[CDATA]]></msg>
+    <msg name="ALL_STATUS" js="on" ><![CDATA[All]]></msg>
+    <msg name="RESTORE_DOC" js="on" ><![CDATA[Restore]]></msg>
+    <msg name="RESTORE_DOC_CONFIRM" js="on" ><![CDATA[Do you want to restore this data?]]></msg>
+    <msg name="ACTIVITY_RESTORE" js="on" ><![CDATA[Restore]]></msg>
+    <msg name="USER_EMAIL_LOG_LABEL" js="on" ><![CDATA[Mail Address]]></msg>
+
+    <msg name="SETTING_AUTO_COMPLETE" js="on" ><![CDATA[Setting to use suggest function]]></msg>
+    <msg name="SETTING_AUTO_COMPLETE_USE" js="on" ><![CDATA[Use]]></msg>
+    <msg name="SETTING_AUTO_COMPLETE_DES" js="on" ><![CDATA[If turn ON this function, the data of each master will be automatically displayed in the pull-down.]]></msg>
+
+	<msg name="FILE_ENCODING" js="on"><![CDATA[File Encoding]]></msg>
+	<msg name="COMMON_SETTING_FILE_ENCODING" js="on"><![CDATA[File Encoding]]></msg>
+	<msg name="EXP_COMMON_SETTING_FILE_ENCODING" js="on"><![CDATA[Encoding applied to all CSV files, such as User Info, Master, master data, etc.]]></msg>
+	<msg name="EXP_COMMON_SETTING_FILE_ENCODING2" js="on"><![CDATA[<font color="blue">*Beware that inappropriate encodings may cause garble or system errors.</font>]]></msg><!-- edit 2015.07.07 -->
+	<msg name="EXP_COMMON_SETTING_FILE_ENCODING3" js="on"><![CDATA[]]></msg>
+    <msg name="VALUE_FILEENCODING_SJIS" js="on"><![CDATA[Japanese（Shift-JIS）]]></msg>
+    <msg name="VALUE_FILEENCODING_UTF8" js="on"><![CDATA[Unicode（UTF-8）]]></msg>
+
+    <!-- add at 2016.03.28（暫定英訳） -->
+    <msg name="FAILED_AUTH_OPENID_CONNECT_MULTIACCOUNT" js="on" ><![CDATA[* Failed to authenticate because some multi-accounts have been logged in Google Apps.]]></msg>
+    <!-- add at 2016.04.04（暫定英訳） -->
+    <msg name="FAILED_AUTH_OPENID_CONNECT_MULTIACCOUNT2" js="on" ><![CDATA[* It need to authenticate because some multi-accounts have been logged in Google Apps.]]></msg>
+    <msg name="INVALID_AUTH_OPENID_CONNECT" js="on"><![CDATA[You do not have the right to access this page, or it has expired. If "Third party Cookie" is disactivated on your browser, please turn it ON and try again.]]></msg>
+    <msg name="INTRODUCING_EXP_THIRD_PARTY_COOKIE" js="on"><![CDATA[*This service requires the activation of "Third Party Cookie".]]></msg>
+    <msg name="READ_MORE_THIRD_PARTY_COOKIE" js="on"><![CDATA[Learn more]]></msg>
+
+    <!-- add at 2016.06.02（暫定英訳） -->
+    <msg name="DELETE_SUPPORT" js="on" ><![CDATA[Delete]]></msg>
+    <msg name="UPDATE_SUPPORT" js="on" ><![CDATA[Update]]></msg>
+    <msg name="DELETING_SUPPORT_CONFIRM" js="on" ><![CDATA[Are you sure you want to delete this content?]]></msg>
+    <msg name="DELETED_SUPPORT" js="on" ><![CDATA[Deleted]]></msg>
+    <msg name="UPDATED_SUPPORT" js="on" ><![CDATA[Updated]]></msg>
+    <msg name="UPDATING_SUPPORT_CONFIRM" js="on" ><![CDATA[Are you sure you want to update this content?]]></msg>
+    <msg name="ERROR_CREATE_TEXTSEARCH_SUPPORT" js="on" ><![CDATA[An error occurred while searching.]]></msg>
+    <msg name="USE_ADVANCED_SEARCH_COMPONENT" js="on" ><![CDATA[Advances Search]]></msg>
+    <msg name="USE_ADVANCED_SEARCH_COMPONENT_EXP" js="on" ><![CDATA[Turn this setting ON to activate Advanced Search Function.]]></msg>
+    <msg name="USE_ADVANCED_SEARCH_COMMENT" js="on" ><![CDATA[Advances Search Comment]]></msg>
+    <msg name="USE_ADVANCED_SEARCH_COMMENT_EXP" js="on" ><![CDATA[Turn this setting ON to activate Advenced Search Comment Function.]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH_COMMENT" js="on" ><![CDATA[Advances Search Comment Usage Setting]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH_COMMENT_EXP" js="on" ><![CDATA[Specify the user/Google group mail address to allow commnent search to. Separate by spaces for multiple entry. All user will be able to use advanced search when left blank.]]></msg>
+    <msg name="USE_ADVANCED_SEARCH_SUPPORT" js="on" ><![CDATA[Advances Search Support]]></msg>
+    <msg name="USE_ADVANCED_SEARCH_SUPPORT_EXP" js="on" ><![CDATA[Turn this setting ON to activate Advenced Search Communication Function.]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH_SUPPORT" js="on" ><![CDATA[Advances Search Communication Usage Setting]]></msg>
+    <msg name="SETTING_USE_ADVANCED_SEARCH_SUPPORT_EXP" js="on" ><![CDATA[Specify the user/Google group mail address to allow communication search to. Separate by spaces for multiple entry. All user will be able to use advanced search when left blank.]]></msg>
+    <msg name="ADVANCED_SEARCH_COMMENT" js="on" ><![CDATA[Search comment]]></msg>
+    <msg name="ADVANCED_SEARCH_SUPPORT" js="on" ><![CDATA[Search communication]]></msg>
+    <msg name="SECTION_FIELD_LOG" js="on" ><![CDATA[Operation history]]></msg>
+    <msg name="NAME_FIELD_LOG" js="on" ><![CDATA[Field name]]></msg>
+    <msg name="VALUE_FIELD_LOG" js="on" ><![CDATA[Field value]]></msg>
+    <msg name="SUM_TIME" js="on" ><![CDATA[Elapsed time]]></msg>
+    <msg name="DAY" js="on" ><![CDATA[ Day ]]></msg>
+    <msg name="HOUR" js="on" ><![CDATA[ Hour ]]></msg>
+    <msg name="MINUTE" js="on" ><![CDATA[ Minute ]]></msg>
+    <msg name="COPY_TEMPLATE" js="on" ><![CDATA[Copy Template]]></msg>
+    <msg name="CONFIRM_COPY_TEMPLATE" js="on" ><![CDATA[Are you sure you want to copy this template?]]></msg>
+    <msg name="SEARCH_COMMON" js="on" ><![CDATA[Advances Search]]></msg>
+
+    <msg name="CHECK_SEND_MAIL_CREATE" js="on" ><![CDATA[Turn ON to send notification when creating data]]></msg>
+    <msg name="CHECK_SEND_MAIL_UPDATE" js="on" ><![CDATA[Turn ON to send notification when updating data]]></msg>
+    <msg name="CHECK_SEND_MAIL_DELETE" js="on" ><![CDATA[Turn ON to send notification when deleting data]]></msg>
+    <msg name="SORT_VIEW" js="on" ><![CDATA[Sort Order]]></msg>
+    <msg name="SORT_VIEW_DESC" js="on" ><![CDATA[Descending]]></msg>
+    <msg name="SORT_VIEW_ASC" js="on" ><![CDATA[Ascending]]></msg>
+    <msg name="CREATE_FOLDER" js="on" ><![CDATA[Create Folder]]></msg>
+    <msg name="NEW_FOLDER" js="on" ><![CDATA[New Folder]]></msg>
+    <msg name="EDIT_FOLDER" js="on" ><![CDATA[Edit Folder]]></msg>
+    <msg name="DELETE_FOLDER" js="on" ><![CDATA[Delete Folder]]></msg>
+
+    <msg name="ONE_TEMPLATE_EXPORT" js="on"><![CDATA[Save template to file]]></msg>
+    <msg name="ERR_EXPORT_TEMPLATE" js="on"><![CDATA[An error occurred while exporting.]]></msg>
+    <msg name="ERR_IMPORT_TEMPLATE" js="on"><![CDATA[An error occurred while importing.]]></msg>
+    <msg name="CREATE_TEMPLATE_BY_EXPORT_FILE" js="on"><![CDATA[Create new document template from file]]></msg>
+    <msg name="ERR_IMPORT_TEMPLATE_INVALID_FORMAT" js="on"><![CDATA[Invalid file format.]]></msg>
+    <msg name="IMPORTING" js="on"><![CDATA[Importing]]></msg>
+    <msg name="EXPORTING" js="on" ><![CDATA[Exporting]]></msg>
+    <msg name="IMPORT_EXT_TEMPLATE_FILE" js="on" ><![CDATA[Load from file]]></msg>
+    <msg name="IMPORT_EXT_TEMPLATE_FILE_ALERT" js="on" ><![CDATA[Load template info from selected file? "Save" template info to preserve the loaded contents. *The title and the category will not be overwritten.]]></msg>
+
+    <!-- add at 2016.12.01 -->
+    <msg name="MOBILE_SETTING" js="on"><![CDATA[Smart Phone Setting]]></msg>
+    <msg name="TEMPLATE_BODY_FOR_MOBILE" js="on"><![CDATA[Smart Phone HTML]]></msg>
+    <msg name="EXP_TEMPLATE_BODY_FOR_MOBILE" js="on"><![CDATA[The above PC HTML will be used when no Smart Phone HTML is given.]]></msg>
+    <msg name="MOBILE_SSO_SETTING" js="on"><![CDATA[Single Sign On Usage Setting]]></msg>
+    <msg name="MOBILE_LOGIN_SETTING" js="on"><![CDATA[Log In Setting]]></msg>
+    <msg name="LOGIN_BY_SATERAITO_SSO" js="on"><![CDATA[Use Sateraito Office - Single Sign On (GAEver.) to login]]></msg>
+    <msg name="MOBILE_SEND_MAIL_SETTING" js="on"><![CDATA[Alert Mesage Setting]]></msg>
+    <msg name="MOBILE_SEND_MAIL_SETTING_1" js="on"><![CDATA[Add URL for Smart Phone to alert message body]]></msg>
+    <msg name="MOBILE_LINK" js="on"><![CDATA[Smart Phone ver. Access URL]]></msg>
+    <msg name="HIDE_EDIT" js="on"><![CDATA[Show]]></msg>
+    <msg name="SHOW_EDIT" js="on"><![CDATA[Hide]]></msg>
+    <msg name="SMARTPHONE_DETAIL_URL_FOR_MAIL_BODY" ><![CDATA[*Access Smart Phone page here]]></msg>
+  <msg name="INTRODUCING_MOBILE_EXP1" ><![CDATA[Smart Phone version for Cloud CRM (Using Browser)]]></msg>
+  <msg name="INTRODUCING_MOBILE_EXP2" ><![CDATA[Please use the below url for Smart Phone version (Browser) for Cloud CRM. You can send the URL to your smart phone and start using it.]]></msg>
+
+</messagebundle>
